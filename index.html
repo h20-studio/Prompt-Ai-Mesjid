@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🕌 Prompt Generator — Miniatur Masjid Kampung</title>
+  <meta name="description" content="Generate prompt AI untuk Google Flow (Imagen Pro) dan Veo 3 — Miniatur masjid dari material alam oleh karakter lansia di perkampungan Indonesia.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕌</text></svg>">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- ─── Header ─── -->
+    <header class="header">
+      <span class="header-icon">🕌</span>
+      <h1>Prompt Generator</h1>
+      <p class="subtitle">Miniatur Masjid dari Material Alam — Perkampungan Indonesia</p>
+      <span class="badge">Google Flow & Veo 3 Ready</span>
+    </header>
+
+    <div class="divider"></div>
+
+    <!-- ─── Platform Selector ─── -->
+    <div class="panel">
+      <div class="panel-title">
+        <span class="icon">🎯</span> Pilih Platform
+      </div>
+      <div class="btn-group">
+        <button class="btn-select btn-platform" data-value="image">
+          <span class="emoji">📸</span>
+          <span class="label">
+            <span class="label-main">Google Flow</span>
+            <span class="label-sub">Imagen Pro — Gambar</span>
+          </span>
+        </button>
+        <button class="btn-select btn-platform" data-value="video">
+          <span class="emoji">🎬</span>
+          <span class="label">
+            <span class="label-main">Veo 3</span>
+            <span class="label-sub">Video + Audio</span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ─── Material Selector ─── -->
+    <div class="panel">
+      <div class="panel-title">
+        <span class="icon">🧱</span> Pilih Material Masjid
+      </div>
+      <div class="material-grid">
+        <button class="btn-select btn-material" data-value="pasir">
+          <span class="emoji">🏖️</span>
+          <span class="label-main">Pasir</span>
+        </button>
+        <button class="btn-select btn-material" data-value="tanah">
+          <span class="emoji">🏺</span>
+          <span class="label-main">Tanah Liat</span>
+        </button>
+        <button class="btn-select btn-material" data-value="buah">
+          <span class="emoji">🍉</span>
+          <span class="label-main">Buah-buahan</span>
+        </button>
+        <button class="btn-select btn-material" data-value="sayuran">
+          <span class="emoji">🥬</span>
+          <span class="label-main">Sayuran</span>
+        </button>
+        <button class="btn-select btn-material" data-value="kayu">
+          <span class="emoji">🪵</span>
+          <span class="label-main">Kayu</span>
+        </button>
+        <button class="btn-select btn-material" data-value="bambu">
+          <span class="emoji">🎋</span>
+          <span class="label-main">Bambu</span>
+        </button>
+        <button class="btn-select btn-material" data-value="batu">
+          <span class="emoji">🪨</span>
+          <span class="label-main">Batu Alam</span>
+        </button>
+        <button class="btn-select btn-material" data-value="es">
+          <span class="emoji">🧊</span>
+          <span class="label-main">Es / Ice</span>
+        </button>
+        <button class="btn-select btn-material" data-value="cokelat">
+          <span class="emoji">🍫</span>
+          <span class="label-main">Cokelat</span>
+        </button>
+        <button class="btn-select btn-material" data-value="kaca">
+          <span class="emoji">🔮</span>
+          <span class="label-main">Kaca</span>
+        </button>
+        <button class="btn-select btn-material" data-value="kertas">
+          <span class="emoji">📄</span>
+          <span class="label-main">Kertas</span>
+        </button>
+        <button class="btn-select btn-material" data-value="lilin">
+          <span class="emoji">🕯️</span>
+          <span class="label-main">Lilin</span>
+        </button>
+        <button class="btn-select btn-material" data-value="gula">
+          <span class="emoji">🍬</span>
+          <span class="label-main">Gula</span>
+        </button>
+        <button class="btn-select btn-material" data-value="kerang">
+          <span class="emoji">🐚</span>
+          <span class="label-main">Kerang Laut</span>
+        </button>
+        <button class="btn-select btn-material" data-value="biji">
+          <span class="emoji">🌾</span>
+          <span class="label-main">Biji-bijian</span>
+        </button>
+        <button class="btn-select btn-material" data-value="kain">
+          <span class="emoji">🧵</span>
+          <span class="label-main">Kain</span>
+        </button>
+        <button class="btn-select btn-material" data-value="logam">
+          <span class="emoji">⚙️</span>
+          <span class="label-main">Logam</span>
+        </button>
+        <button class="btn-select btn-material" data-value="kristal">
+          <span class="emoji">💎</span>
+          <span class="label-main">Kristal</span>
+        </button>
+        <button class="btn-select btn-material" data-value="sabun">
+          <span class="emoji">🧼</span>
+          <span class="label-main">Sabun</span>
+        </button>
+        <button class="btn-select btn-material" data-value="daur_ulang">
+          <span class="emoji">♻️</span>
+          <span class="label-main">Daur Ulang</span>
+        </button>
+        <button class="btn-select btn-material" data-value="kulit">
+          <span class="emoji">🐄</span>
+          <span class="label-main">Kulit</span>
+        </button>
+        <button class="btn-select btn-material" data-value="beton">
+          <span class="emoji">🧱</span>
+          <span class="label-main">Beton</span>
+        </button>
+        <button class="btn-select btn-material" data-value="keramik">
+          <span class="emoji">🫖</span>
+          <span class="label-main">Keramik</span>
+        </button>
+        <button class="btn-select btn-material" data-value="semen">
+          <span class="emoji">🏗️</span>
+          <span class="label-main">Semen</span>
+        </button>
+        <button class="btn-select btn-material" data-value="rotan">
+          <span class="emoji">🪑</span>
+          <span class="label-main">Rotan</span>
+        </button>
+        <button class="btn-select btn-material" data-value="janur">
+          <span class="emoji">🌿</span>
+          <span class="label-main">Janur Kelapa</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ─── Character Selector ─── -->
+    <div class="panel">
+      <div class="panel-title">
+        <span class="icon">👤</span> Pilih Karakter
+      </div>
+      <div class="btn-group">
+        <button class="btn-select btn-character" data-value="kakek">
+          <span class="emoji">👴</span>
+          <span class="label">
+            <span class="label-main">Kakek</span>
+            <span class="label-sub">Laki-laki 60-70 thn · Berpeci</span>
+          </span>
+        </button>
+        <button class="btn-select btn-character" data-value="nenek">
+          <span class="emoji">👵</span>
+          <span class="label">
+            <span class="label-main">Nenek</span>
+            <span class="label-sub">Perempuan 60-70 thn · Berkerudung</span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ─── Scene Selector (Video Only) ─── -->
+    <div class="panel panel-scene" id="scenePanel" style="display: none;">
+      <div class="panel-title">
+        <span class="icon">🎬</span> Pilih Scene Video
+        <span class="scene-badge">Veo 3 Only</span>
+      </div>
+      <div class="btn-group scene-group">
+        <button class="btn-select btn-scene" data-value="0">
+          <span class="emoji">1️⃣</span>
+          <span class="label">
+            <span class="label-main">Scene 1</span>
+            <span class="label-sub">Opening & Perkenalan</span>
+          </span>
+        </button>
+        <button class="btn-select btn-scene" data-value="1">
+          <span class="emoji">2️⃣</span>
+          <span class="label">
+            <span class="label-main">Scene 2</span>
+            <span class="label-sub">Proses Pembuatan</span>
+          </span>
+        </button>
+        <button class="btn-select btn-scene" data-value="2">
+          <span class="emoji">3️⃣</span>
+          <span class="label">
+            <span class="label-main">Scene 3</span>
+            <span class="label-sub">Hasil & Subscribe</span>
+          </span>
+        </button>
+      </div>
+      <button class="btn-scene-full" id="btnSceneFull" data-value="full">
+        🎞️ Generate Semua Scene (Full Video)
+      </button>
+    </div>
+
+    <!-- ─── Location Selector ─── -->
+    <div class="panel">
+      <div class="panel-title">
+        <span class="icon">📍</span> Pilih Lokasi Pembuatan
+        <span class="location-count" id="locationCount">80 lokasi</span>
+      </div>
+      <div class="location-search-wrapper">
+        <input type="text" class="location-search" id="locationSearch" placeholder="🔍 Cari lokasi..." autocomplete="off">
+      </div>
+      <div class="location-grid" id="locationGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+
+    <!-- ─── Generate Button ─── -->
+    <button class="btn-generate" id="generateBtn" disabled>
+      ✨ Generate Prompt
+    </button>
+
+    <!-- ─── Output Section ─── -->
+    <div class="output-section" id="outputSection">
+      <div class="panel">
+        <div class="output-header">
+          <div class="output-label">
+            <span class="icon">📝</span> Prompt Hasil Generate
+          </div>
+          <div class="output-info">
+            <span class="output-tag" id="outputTagPlatform">—</span>
+            <span class="output-tag" id="outputTagMaterial">—</span>
+            <span class="output-tag" id="outputTagCharacter">—</span>
+          </div>
+        </div>
+        <div class="output-box" id="outputBox">
+          Prompt akan muncul di sini...
+        </div>
+        <div class="char-count" id="charCount"></div>
+        <button class="btn-copy" id="copyBtn">📋 Copy Prompt</button>
+      </div>
+    </div>
+
+    <!-- ─── Tips ─── -->
+    <div class="tips-section">
+      <div class="tips-title">
+        <span class="icon">📌</span> Tips Penggunaan
+      </div>
+      <ul class="tips-list">
+        <li>Untuk <strong>Google Flow</strong>, paste prompt di text box dan upload referensi gambar jika ada</li>
+        <li>Untuk <strong>Veo 3</strong>, prompt sudah termasuk deskripsi audio (suara kampung, ayam, jangkrik, dll)</li>
+        <li>Semua prompt sudah <strong>policy-compliant</strong> — aman dari penolakan Google</li>
+        <li>Tambahkan <code>"consistent character"</code> jika ingin karakter konsisten antar frame</li>
+        <li>Video Veo 3 bisa dipecah per scene (5-8 detik) jika hasil kurang optimal</li>
+        <li>Di akhir setiap video sudah ada ajakan <strong>Like & Subscribe</strong> 🔔</li>
+      </ul>
+    </div>
+
+    <!-- ─── Footer ─── -->
+    <footer class="footer">
+      <div class="footer-line"></div>
+      <p>Dibuat dengan <span class="heart">♥</span> untuk kreator konten Indonesia</p>
+      <p style="margin-top: 6px; font-size: 0.7rem;">🕌 Miniatur Masjid Kampung — Prompt Generator v1.0</p>
+    </footer>
+
+  </div>
+
+  <!-- ─── Toast ─── -->
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
