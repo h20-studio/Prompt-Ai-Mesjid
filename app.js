@@ -108,6 +108,86 @@ const PROMPTS = {
         janur: {
             kakek: `A hyper-realistic photograph of a 67-year-old Indonesian elderly man wearing a white peci and a light green batik shirt, sitting in the yard of a kampung house with stacks of fresh green and yellow coconut leaves (janur). He is proudly displaying a magnificent miniature mosque crafted from woven coconut leaves (janur) — intricately folded janur domes with traditional Javanese weaving patterns, janur-wrapped minarets decorated with tiny janur roses, woven janur lattice walls, and a base of braided coconut leaf strips in geometric patterns. The fresh green and golden yellow colors of the janur are vibrant and beautiful. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Bright morning light, traditional craft photography, 8K resolution.`,
             nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a pale green hijab and a white batik kebaya, sitting on a bamboo bench surrounded by fresh coconut leaves (janur). She is presenting a beautifully woven miniature mosque from janur — layered janur folded domes, spiraling janur ribbon minarets, woven janur screen walls with diamond patterns, janur flower decorations at each corner, and a base of braided golden coconut leaves. The mosque shows the beautiful transition from green to golden yellow janur colors. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Fresh morning light, traditional Indonesian craft photography, 8K resolution.`
+        },
+        emas: {
+            kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a pristine white peci and a luxurious deep burgundy batik shirt with gold thread embroidery, sitting at a velvet-draped table in a sunlit kampung veranda. He is proudly presenting an absolutely breathtaking miniature mosque forged entirely from gleaming 24-karat gold — brilliant mirror-polished gold domes reflecting intense golden sunlight, ornate gold filigree minarets with intricate swirling arabesque patterns, hammered gold walls with deeply embossed Islamic calligraphy, gold leaf-covered arched doorways with ruby-red gemstone inlays, and a solid gold base with engraved geometric rosette patterns radiating outward. The gold surfaces create dazzling warm reflections that illuminate the entire scene with a rich amber glow. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Intense golden hour sunlight creating dramatic reflections, luxury jewelry photography, ultra-sharp macro detail, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a rich deep gold hijab with delicate pearl-white lace trim and an elegant ivory kebaya with gold brocade patterns, sitting on a silk-cushioned wooden chair in a kampung courtyard bathed in warm light. She is gently cradling a magnificent miniature mosque made entirely from radiant gold — lustrous polished gold domes with etched floral vine patterns catching every ray of light, slender gold minarets topped with tiny diamond-encrusted crescents, hand-engraved gold walls featuring intricate Islamic geometric tessellations, and a base of interlocking gold tiles arranged in a mesmerizing star pattern. Tiny gold lanterns hang from the entrance archway. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Warm golden radiance, opulent luxury photography, ultra-detailed, 8K resolution.`
+        },
+        perak: {
+            kakek: `A hyper-realistic photograph of a 68-year-old Indonesian elderly man wearing a black peci and a crisp midnight-blue batik shirt, sitting in a silversmith workshop with gleaming tools hanging on the wall. He is proudly showcasing a stunning miniature mosque crafted entirely from polished sterling silver — mirror-bright silver domes reflecting cool blue-white light, intricately twisted silver wire filigree minarets with spiral details so fine they look like frozen lace, hammered silver walls with deeply embossed crescent moon and star patterns, delicate silver mesh lattice windows, and a brushed silver base with etched concentric mandala patterns. The silver surfaces shimmer with cool blue and white reflections creating an ethereal moonlit glow. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Cool silvery-blue studio lighting with dramatic reflections, master silversmith photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a shimmering silver-white hijab and a deep navy velvet kebaya with silver embroidery, sitting at a polished wooden table displaying silverwork tools. She is presenting a breathtaking miniature mosque made entirely from silver — gleaming silver domes with hand-chased floral motifs, elegant silver filigree minarets with tiny silver bells, engraved silver walls featuring flowing arabesque scrollwork, silver wire mesh windows that catch and scatter light like stars, and a polished silver base reflecting the mosque like a mirror. Each silver surface has a luminous cool-blue sheen. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Moonlight-cool silver reflections, elegant jewelry photography, 8K resolution.`
+        },
+        mutiara: {
+            kakek: `A hyper-realistic photograph of a 67-year-old Indonesian elderly man wearing a white peci and an elegant cream-white koko shirt with mother-of-pearl buttons, sitting at a dark mahogany table covered in soft black velvet. He is proudly displaying an absolutely exquisite miniature mosque constructed entirely from lustrous pearls — perfectly spherical iridescent white pearl domes glowing with pink and blue overtones, graduated pearl minarets from large South Sea pearls to tiny seed pearls, walls of tightly arranged freshwater pearls in creamy white and soft pink hues creating subtle ombré patterns, mother-of-pearl window panels reflecting rainbow iridescence, and a base of polished abalone shell tiles radiating vivid greens, blues, and purples. The entire mosque shimmers with a dreamy pearlescent luminescence. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Soft diffused pearlescent light, luxury still-life photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly woman wearing a luminous pearl-white hijab with iridescent sheen and an elegant dusty-rose kebaya adorned with pearl beading, sitting beside a display of lustrous pearls on dark silk. She is presenting a stunning miniature mosque made from pearls — creamy Akoya pearl domes with soft pink lustre, Tahitian black pearl minarets with peacock-green overtones, golden South Sea pearl accent archways, walls of baroque pearls in organic flowing patterns, keshi pearl window decorations scattering rainbow light, and a base of polished mother-of-pearl in swirling iridescent patterns of turquoise, magenta, and gold. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Ethereal iridescent lighting, high-end jewelry photography, 8K resolution.`
+        },
+        bunga: {
+            kakek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly man wearing a white peci and a vivid emerald-green batik shirt, sitting in a lush kampung garden overflowing with tropical flowers. He is beaming with pride beside an absolutely spectacular miniature mosque constructed entirely from fresh vibrant flowers — blazing crimson red rose petal domes layered like silk, bright golden sunflower minarets standing tall, walls of electric purple orchid blossoms and hot pink bougainvillea arranged in striking geometric patterns, archways of pure white jasmine (melati) releasing sweet fragrance, vivid orange marigold courtyard borders, and a base of deep green tropical leaves with scattered frangipani in cream and yellow. Butterflies dance around the floral mosque. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Brilliant saturated natural daylight, vivid floral photography, macro detail, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a vibrant magenta hijab and a floral-printed kebaya in vivid coral and turquoise, sitting in a flower-filled kampung garden surrounded by baskets of fresh blooms. She is gently presenting a magnificent miniature mosque made entirely from flowers — deep violet hydrangea domes with intense blue undertones, tall bright yellow chrysanthemum minarets, walls of vivid scarlet hibiscus and electric-blue delphiniums creating bold color-blocked patterns, delicate white lily window accents, archways woven from vivid pink carnations and orange bird-of-paradise flowers, and a base of lush emerald banana leaves dotted with golden champaka blossoms. Hummingbirds hover nearby. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Vivid saturated colors, botanical garden photography, 8K resolution.`
+        },
+        permen: {
+            kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a brown peci and a cheerful bright yellow koko shirt, sitting at a colorful table overflowing with sweets and candies. He is grinning with delight beside a fantastical miniature mosque built entirely from candies — glossy swirled lollipop domes in electric pink, neon blue, and vivid purple, tall striped candy cane minarets in classic red-and-white, walls of rainbow gummy bears and jewel-bright hard candies in emerald green, ruby red, sapphire blue, and amber gold arranged in dazzling mosaic patterns, jelly bean courtyard tiles in every color imaginable, and a base of shiny wrapped toffees and glittering rock candy crystals. The candy mosque is an explosion of saturated neon colors. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Bright pop-art studio lighting, candy advertisement photography, vivid colors, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a candy-pink hijab and a bright white blouse with colorful embroidery, surrounded by jars of vibrant candies and sweets. She is cheerfully presenting a whimsical miniature mosque made entirely from candy — shiny pastel-swirled marshmallow domes in baby pink and sky blue, tall twisted licorice minarets in glossy black and red, walls of neatly arranged M&M-style chocolates creating vivid pixel-art Islamic patterns in electric orange, lime green, and royal purple, stained-glass-style windows made from translucent fruit-flavored hard candy in ruby, emerald, and topaz, and a base of colorful sprinkles and sugar pearls. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Playful vibrant lighting, confectionery photography, 8K resolution.`
+        },
+        koral: {
+            kakek: `A hyper-realistic photograph of a 69-year-old Indonesian elderly man wearing a white peci and a deep ocean-blue batik shirt with coral motifs, sitting near a traditional coastal kampung with turquoise waters behind him. He is proudly presenting a breathtaking miniature mosque built entirely from coral — vivid branching staghorn coral domes in electric neon orange and hot pink, tall pillar coral minarets in deep crimson and bright magenta, walls of brain coral in fluorescent yellow-green and lavender, fan coral window screens in brilliant scarlet and tangerine, blue ridge coral accent arches, and a base of crushed white coral sand with scattered pieces of vivid turquoise, cobalt blue, and lime green sea glass. The coral colors are intensely saturated and almost neon in their vibrancy. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Bright tropical underwater-style lighting, marine photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly woman wearing a vivid turquoise hijab and a white cotton blouse with coral-pink embroidery, sitting by a coastal kampung with clear ocean behind her. She is presenting a stunning miniature mosque crafted from coral — soft coral domes in brilliant electric pink and deep magenta with delicate polyp textures, elegant sea fan minarets in vivid blood-orange and golden-yellow, walls of mushroom coral in fluorescent green and lavender arranged in organic flowing patterns, table coral archways in intense cobalt blue, and a base of polished coral rubble in cream, rose, and aqua arranged in concentric ocean-wave patterns. Tiny colorful tropical fish swim in a glass bowl beside the mosque. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Vivid tropical coastal light, underwater reef photography style, 8K resolution.`
+        },
+        lumut: {
+            kakek: `A hyper-realistic photograph of a 68-year-old Indonesian elderly man wearing a black peci and a deep forest-green batik shirt, sitting on a moss-covered stone in a misty highland kampung surrounded by ancient trees dripping with moss and ferns. He is presenting a magical miniature mosque grown entirely from living moss and ferns — thick emerald-green cushion moss domes with tiny dewdrops glistening like diamonds, delicate maidenhair fern minarets in vivid bright green, walls of sheet moss in varying shades from lime green to deep forest green creating a natural ombré effect, tiny bird's nest fern window accents in glossy dark green, miniature selaginella ground cover in electric chartreuse forming the courtyard, and a base of rich dark humus soil with scattered tiny white mushrooms and bright orange bracket fungi. Morning mist swirls around the moss mosque. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Ethereal misty forest light, macro nature photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a sage-green hijab and a dark brown batik dress with leaf motifs, sitting in a mossy forest clearing in a highland kampung. She is presenting an enchanting miniature mosque made from living moss and ferns — velvety sphagnum moss domes in vivid chartreuse and deep emerald, sword fern minarets in bright spring-green, walls of different moss species creating a tapestry of greens from neon lime to deep jade, tiny asplenium fern window decorations in glossy black-green, and a base of rich forest-floor moss carpet dotted with miniature bright red toadstools and vivid violet wildflowers. Dewdrops sparkle across every surface like scattered jewels. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Mystical diffused forest light, enchanted garden photography, 8K resolution.`
+        },
+        stik_eskrim: {
+            kakek: `A hyper-realistic photograph of a 67-year-old Indonesian elderly man wearing a white peci and a bright sky-blue batik shirt, sitting at a clean wooden table covered with bundles of popsicle sticks and craft supplies. He is proudly displaying a meticulously constructed miniature mosque built entirely from popsicle sticks — precisely arranged and layered popsicle stick domes stained in vivid cherry-red and bright royal blue, tall geometric popsicle stick minarets painted in bold sunflower-yellow and deep emerald-green stripes, interlocking popsicle stick walls with laser-precision geometric cutout patterns painted in alternating hot pink and turquoise, tiny popsicle stick lattice windows stained amber-gold, and a sturdy base of cross-layered sticks painted in a vivid rainbow gradient from violet to red. Each stick is perfectly aligned showing extraordinary craftsmanship. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Bright cheerful daylight, craft hobby photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a bright coral-pink hijab and a cream blouse, sitting at a craft table with colorful popsicle sticks sorted by color. She is presenting a charming miniature mosque made from popsicle sticks — carefully layered stick domes painted in pastel lavender and mint green with hand-painted floral details, slender minarets built from stacked sticks painted in vivid tangerine-orange and candy-apple red, walls of woven popsicle sticks painted in a checkerboard of bright lemon-yellow and electric violet, tiny stick windows with miniature curtain cutouts, and a base of sticks arranged in a sunburst pattern painted in graduating shades of ocean-blue to sky-blue. Tiny painted stick trees and flowers decorate the courtyard. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Warm craft-room lighting, DIY hobby photography, 8K resolution.`
+        },
+        tali: {
+            kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a cream peci and a rugged dark brown work shirt, sitting on a wooden bench surrounded by coils of various ropes and twines in natural and dyed colors. He is proudly presenting a remarkable miniature mosque constructed entirely from rope and twine — thick manila rope domes coiled in perfect spirals with natural golden-tan color, tall sisal rope minarets tightly wound with precision, walls of braided jute twine in natural brown interwoven with vivid crimson-dyed cotton cord creating bold geometric diamond patterns, macramé-knotted window panels in bright saffron-yellow and deep indigo-blue, and a base of tightly woven flat rope in concentric circles alternating between bright orange and deep forest-green. The rope textures are rich and tactile. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Warm natural light emphasizing rope textures, artisan craft photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a warm ochre-yellow hijab and a dark blue batik blouse, sitting in a kampung veranda surrounded by bundles of colorful rope and macramé projects. She is presenting a beautiful miniature mosque made from rope and twine — elegantly coiled cotton rope domes in vivid coral-pink and cream spiral patterns, twisted jute minarets wrapped with bright turquoise thread accents, walls of macramé-knotted panels in natural hemp with woven-in threads of electric magenta and lime green forming intricate floral knot patterns, tiny rope-framed windows with miniature tassel decorations in royal purple and gold, and a base of flat-braided rope in alternating bands of sunshine-yellow and cobalt-blue. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Warm afternoon light, textile art photography, 8K resolution.`
+        },
+        pelepah: {
+            kakek: `A hyper-realistic photograph of a 68-year-old Indonesian elderly man wearing a white peci and an olive-green work shirt, sitting in a kampung yard with stacks of dried banana bark (pelepah pisang) in rich brown and golden tones. He is proudly showcasing a striking miniature mosque crafted from banana trunk fiber and bark — layered dried pelepah pisang domes with natural striations in warm amber, caramel, and deep chocolate-brown creating beautiful organic gradient patterns, tall fibrous minarets wrapped tightly in dried banana leaf fiber with golden-hay colored accents, walls of pressed banana bark showing vivid natural grain patterns in burnt sienna and raw umber, decorative archways of curled dried banana leaf in rich bronze and copper tones, and a base of woven banana fiber strips in alternating dark mahogany and pale straw-gold creating a checkerboard pattern. The natural textures are extraordinarily detailed. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Warm golden afternoon light, natural fiber art photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a warm chocolate-brown hijab and a cream kebaya with batik trim, sitting beside piles of prepared banana trunk material in a kampung yard. She is presenting a beautiful miniature mosque made from banana trunk fiber — delicately layered pelepah pisang domes showing natural color variations from pale cream to deep russet-brown like a sunset gradient, graceful minarets of rolled banana bark in warm honey-gold and cinnamon tones, walls of pressed banana fiber with visible natural veining in amber and tawny-brown creating organic abstract patterns, window frames of curled dried banana leaf in rich bronze, and a base of tightly woven banana fiber strips in a herringbone pattern mixing warm caramel with ivory-white. She has added tiny dried flowers in vivid orange and deep purple as courtyard decorations. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Soft warm diffused light, eco-art photography, 8K resolution.`
+        },
+        tempurung: {
+            kakek: `A hyper-realistic photograph of a 69-year-old Indonesian elderly man wearing a white peci and a deep brown batik shirt, sitting in a kampung yard with piles of halved coconut shells (tempurung kelapa) in rich dark chocolate-brown and caramel tones. He is proudly presenting a robust miniature mosque crafted entirely from coconut shells — polished half-shell domes in deep espresso-brown with visible natural grain creating swirling patterns, tall minarets of stacked and carved coconut shell rings in graduated dark-to-light brown, walls of precisely cut coconut shell pieces arranged in herringbone patterns showing contrasts of dark mahogany outer shell and creamy white inner flesh, archways framed with coconut shell carved in intricate floral motifs, and a base of mosaic-arranged coconut shell pieces in alternating burnt umber and pale ivory creating a bold geometric star pattern. The natural shell has a warm polished sheen. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Rich warm tropical light, artisan craft photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a warm caramel hijab and a cream batik kebaya, sitting in a kampung veranda with sorted coconut shell pieces. She is presenting a beautiful miniature mosque made from coconut shells — smooth polished half-shell domes in deep warm brown with golden highlights, elegant minarets carved from single coconut shells in rich chocolate and amber tones, walls of thin coconut shell strips arranged in a basket-weave pattern alternating dark and light brown, delicate coconut shell lattice windows with carved geometric cutouts, and a base of polished flat coconut shell pieces arranged in concentric circles of dark espresso and pale cream. Tiny carved coconut shell flowers decorate the entrance. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Warm golden afternoon light, tropical craft photography, 8K resolution.`
+        },
+        rempah: {
+            kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a deep saffron-yellow koko shirt, sitting at a rustic wooden table overflowing with colorful spices in earthenware bowls. He is proudly displaying an incredibly aromatic miniature mosque built entirely from spices — vivid bright-yellow turmeric powder domes with striking golden intensity, tall deep-red cinnamon stick minarets bound with star anise clusters, walls of whole cloves in dark chocolate-brown arranged in dense geometric patterns interspersed with vivid green cardamom pods and bright coral-pink dried rose petals, archways of golden-brown nutmeg and brilliant orange dried mace, windows framed with pale cream-white peppercorns and jet-black pepper berries, and a base of deep crimson-red dried chili flakes mixed with bright golden cumin seeds creating a fiery sunset-colored mosaic. The rich warm colors of the spices are intensely saturated. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Warm spice-market lighting, vivid food photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly woman wearing a vivid saffron-orange hijab and a dark brown batik blouse with gold accents, surrounded by woven baskets of aromatic spices. She is presenting a magnificent miniature mosque crafted from spices — brilliant turmeric-golden domes with hand-pressed patterns, elegant vanilla bean minarets in deep chocolate-brown bound with threads of bright red saffron strands, walls of crushed coriander seeds in warm olive-green mixed with vivid cayenne-red chili powder creating bold striped patterns, windows of translucent sliced dried galangal in pale ivory, archways of whole star anise in deep mahogany-brown, and a base of mixed ground spices creating an ombré effect from deep paprika-red through warm cinnamon-brown to bright golden turmeric. The air seems thick with fragrance. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Rich warm atmospheric light, spice art photography, 8K resolution.`
+        },
+        garam: {
+            kakek: `A hyper-realistic photograph of a 67-year-old Indonesian elderly man wearing a white peci and a light blue work shirt, sitting at a wooden table near a traditional salt farm with geometric salt ponds reflecting the sky. He is proudly presenting a dazzling miniature mosque built entirely from salt crystals — large sparkling rock salt crystal domes in translucent white with rainbow prismatic refractions, tall Himalayan pink salt minarets in vivid rose-pink and deep salmon with visible crystal facets catching light, walls of coarse sea salt in pure brilliant white arranged in precise geometric patterns, black Hawaiian salt accent borders creating bold contrast, windows of transparent salt crystal plates refracting rainbow light like prisms, and a base of fine iodized salt in pristine snow-white dusted with fleur de sel crystals that sparkle like crushed diamonds. The salt mosque glitters intensely under direct light. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Brilliant harsh tropical sunlight creating maximum sparkle and crystal refraction, mineral photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pure white hijab and a pale sky-blue batik dress, sitting near a coastal salt-harvesting field. She is presenting a sparkling miniature mosque made from salt — crystalline rock salt domes in transparent white with vivid rainbow refractions inside each crystal, pink Himalayan salt minarets in striking coral-rose with visible geological layers, walls of black lava salt in jet-black creating dramatic contrast against white sea salt geometric inlays, grey Celtic sea salt accent arches, and a base of mixed salt varieties creating a stunning mosaic of pure white, vivid pink, deep black, and warm grey arranged in Islamic geometric patterns. Each crystal surface catches and scatters light creating a dazzling display. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Intense bright light maximizing crystal sparkle, mineral art photography, 8K resolution.`
+        },
+        marmer: {
+            kakek: `A hyper-realistic photograph of a 68-year-old Indonesian elderly man wearing a black peci and a pristine white koko shirt, sitting in a stone-carving workshop with marble dust and chisels. He is proudly presenting a magnificent miniature mosque sculpted from marble — lustrous Carrara white marble domes with dramatic grey veining patterns flowing like frozen rivers, tall Verde Guatemala marble minarets in vivid deep emerald-green with white crystalline streaks, walls of Nero Marquina black marble with striking white spider-web veining creating bold dramatic contrast, Calacatta Gold marble archways with rich warm honey-gold and caramel veining, and a base of polished Rosso Levanto marble in deep crimson-red with white calcite patterns arranged in a compass-rose design. The highly polished marble surfaces reflect light with mirror-like intensity. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Dramatic architectural lighting with rich reflections, luxury stone photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly woman wearing an elegant ivory-white hijab and a dark jade-green kebaya, sitting at a marble-topped table in a kampung setting. She is presenting a stunning miniature mosque carved from marble — gleaming Statuario marble domes in brilliant white with bold grey and gold veining, slender Pink Norweigan marble minarets in vivid rose-pink with crystalline sparkle, walls of Blue Sodalite marble in deep royal-blue with white calcite constellation patterns, Honey Onyx marble windows that glow with warm amber translucence when backlit, and a base combining Emperor Red marble in deep oxblood-crimson with Thassos white marble in a dramatic checkerboard pattern. The marble surfaces are polished to a mirror finish reflecting every detail. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Elegant studio-quality lighting, architectural sculpture photography, 8K resolution.`
+        },
+        lego: {
+            kakek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly man wearing a white peci and a bright red polo shirt, sitting at a large table covered with thousands of colorful LEGO bricks sorted into vivid color groups. He is proudly presenting an incredibly detailed miniature mosque built entirely from LEGO bricks — smooth curved dome sections in brilliant royal blue and vivid white bricks with a golden LEGO crescent on top, tall stepped minarets in bright sunflower-yellow and deep emerald-green bricks with tiny LEGO windows, walls of alternating vivid red, bright orange, and pure white bricks in precise Islamic geometric patterns, arched doorways using curved LEGO pieces in deep purple and bright turquoise, and a baseplate of smooth green LEGO tiles with a courtyard of tan and white bricks featuring tiny LEGO trees and flowers in vivid pink and bright yellow. The colors are the iconic saturated LEGO primary palette. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Bright cheerful studio lighting, toy photography, vivid saturated colors, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a bright coral hijab and a cheerful yellow blouse, sitting beside a large collection of sorted LEGO bricks in rainbow colors. She is presenting a charming miniature mosque made from LEGO bricks — rounded dome sections in bright pastel-pink and lavender bricks with a shiny gold LEGO crescent, elegant minarets in vivid lime-green and bright sky-blue bricks with alternating color-block patterns, walls of vivid magenta, bright orange, and turquoise bricks creating playful geometric designs, stained-glass-style windows using transparent LEGO pieces in vivid red, blue, green, and yellow, and a white LEGO baseplate courtyard with tiny LEGO flower gardens in hot pink, bright purple, and sunshine-yellow. LEGO minifigures are placed as tiny visitors. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Bright playful lighting, toy photography, 8K resolution.`
+        },
+        kawat: {
+            kakek: `A hyper-realistic photograph of a 69-year-old Indonesian elderly man wearing a black peci and a dark grey work shirt with rolled-up sleeves, sitting at a metalworking bench with pliers and wire coils. He is proudly showcasing an intricate miniature mosque sculpted entirely from wire — shimmering copper wire domes twisted into dense arabesgue spiral patterns in warm rose-gold and burnt-orange tones, tall silver aluminum wire minarets with precisely coiled spring details catching light like tiny mirrors, walls of woven brass wire mesh in rich golden-yellow creating a lattice of overlapping geometric Islamic star patterns, anodized blue wire accent arches in vivid electric cobalt, red enamel-coated copper wire window frames in bright cherry-red, and a base of interwoven steel and copper wire in alternating gunmetal-grey and warm bronze creating a complex mandala pattern. The wire surfaces catch light at every angle. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Dramatic directional lighting emphasizing metallic reflections, wire art sculpture photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a warm bronze hijab and a dark brown batik blouse, sitting at a craft table with coils of colorful wire and jewelry tools. She is presenting a delicate miniature mosque made from wire — elegantly coiled gold-plated wire domes in brilliant warm gold with intricate filigree swirl patterns, slender rose-gold wire minarets with tiny wire crescent finials, walls of woven silver wire creating gossamer-thin lattice patterns in cool platinum shimmer, vivid turquoise anodized wire window frames contrasting with bright copper wire accents, and a base of intertwined wires in purple, emerald-green, and gold creating a flowing floral vine pattern. The mixed metals create a stunning warm-cool color contrast. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Warm directional studio light catching wire reflections, jewelry art photography, 8K resolution.`
+        },
+        mosaik: {
+            kakek: `A hyper-realistic photograph of a 67-year-old Indonesian elderly man wearing a white peci and a rich cobalt-blue batik shirt, sitting at a work table covered with tiny mosaic tiles in every color. He is proudly presenting a magnificent miniature mosque decorated entirely in mosaic tiles — domes covered in tiny iridescent glass mosaic tiles in vivid cobalt-blue, rich turquoise, and brilliant gold creating swirling Islamic arabesque patterns, minarets wrapped in vertical bands of vivid ruby-red, emerald-green, and sapphire-blue mosaic, walls of hand-cut ceramic tiles in electric orange, deep purple, bright magenta, and sunshine-yellow arranged in mesmerizing geometric zellige patterns, arched windows of translucent glass mosaic in stained-glass-style depicting floral motifs in vivid crimson and teal, and a base of polished marble mosaic in classic black-and-white with gold accent lines. The mosaic surfaces glitter with thousands of tiny reflections. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Bright clear light maximizing mosaic sparkle, architectural detail photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly woman wearing a vivid teal hijab and a white kebaya with gold embroidery, sitting beside trays of sorted colorful mosaic tiles and grouting tools. She is presenting a stunning miniature mosque covered in mosaic — domes of shimmering Venetian glass smalti tiles in vivid royal-blue and bright turquoise with gold leaf tessera accents creating sun-ray patterns, minarets of iridescent mother-of-pearl mosaic tiles in swirling rainbow colors, walls of hand-cut Moroccan zellige tiles in vivid saffron-yellow, deep crimson, bright emerald, and cobalt-blue arranged in complex star-and-cross patterns, windows of Byzantine-style gold glass mosaic on a deep blue background, and a base of classic Roman-style mosaic in warm terracotta-red, cream, and black creating a flowing vine pattern. Every surface sparkles with color. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Brilliant warm light, mosaic art photography, 8K resolution.`
+        },
+        resin: {
+            kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a clean dark navy shirt, sitting at a modern craft workspace with resin bottles and molds. He is proudly presenting a spectacular miniature mosque made entirely from crystal-clear epoxy resin — transparent resin domes with embedded vivid electric-blue and deep purple alcohol ink swirls creating galaxy-like cosmic patterns visible through the crystal-clear surface, tall resin minarets with suspended gold leaf flakes and bright turquoise pigment veins frozen mid-flow, walls of opaque resin in vivid ocean-teal and bright coral-orange with pearlescent shimmer powder creating a color-shifting effect, windows of transparent resin with embedded real tiny dried flowers in vivid red, yellow, and purple, and a base of deep black resin with embedded LED-lit fiber optics creating a starfield effect beneath the mosque. The resin surfaces are polished to a glass-like finish. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Dramatic UV-reactive lighting, modern resin art photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a deep ocean-blue hijab and a white cotton blouse, sitting at a clean workspace with resin supplies and silicone molds. She is presenting a breathtaking miniature mosque made from resin — crystal-clear resin domes with swirling embedded pigments in vivid magenta, electric teal, and bright gold creating mesmerizing ocean-wave patterns frozen in time, elegant resin minarets with suspended holographic glitter and pearl-white pigment creating an opal-like color-shifting effect, walls of translucent resin in vivid sunset-orange graduating to deep violet with tiny embedded seashells and gold flakes visible inside, windows of transparent resin casting vivid colored shadows in ruby-red and emerald-green, and a base of deep midnight-blue resin with embedded phosphorescent particles that glow in the dark like a sea of bioluminescent stars. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Dramatic artistic lighting showing resin translucency, modern craft photography, 8K resolution.`
+        },
+        kulit_telur: {
+            kakek: `A hyper-realistic photograph of a 68-year-old Indonesian elderly man wearing a brown peci and a cream-white koko shirt, sitting at a wooden table with bowls of sorted crushed eggshells in various colors — white chicken eggshells, speckled brown duck eggshells, pale blue-green quail eggshells, and shells dyed in vivid colors. He is proudly presenting an incredibly intricate miniature mosque decorated with eggshell mosaic — domes covered in finely crushed pure white eggshell creating a crackle-glaze texture like ancient porcelain, minarets decorated with vivid turquoise-dyed and bright crimson-dyed eggshell pieces in alternating spiral bands, walls of natural speckled brown eggshell arranged in organic mosaic patterns interspersed with vivid saffron-yellow and deep cobalt-blue dyed shell pieces forming Islamic geometric stars, windows framed with tiny pale blue quail eggshell, and a base of mixed eggshell mosaic in vivid emerald-green, bright coral, and pristine white creating a garden-tile pattern. The crackle texture of the eggshell is extraordinarily detailed. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Bright detailed macro lighting, mosaic art photography, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a soft cream hijab and a pale sage-green kebaya, sitting at a table with sorted eggshell pieces and fine brushes for dyeing. She is presenting a delicate miniature mosque decorated in eggshell art — domes of finely crushed snow-white eggshell with a beautiful crackle texture, hand-dyed eggshell pieces in vivid rose-pink and bright lavender creating petal-like patterns on the dome surface, minarets decorated with eggshell dyed in bright sunshine-yellow and vivid mint-green in delicate striped patterns, walls of natural brown speckled eggshell mixed with vivid tangerine-orange and deep plum-purple dyed pieces creating floral mosaic designs, and a base of eggshell pieces dyed in graduating colors from bright coral through warm peach to pale cream creating a beautiful ombré mosaic. Each tiny eggshell piece is placed with tweezers-precision. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Soft detailed lighting, delicate craft photography, 8K resolution.`
+        },
+        kopi: {
+            kakek: `A hyper-realistic photograph of a 67-year-old Indonesian elderly man wearing a dark brown peci and a cream koko shirt, sitting at a rustic wooden table surrounded by burlap sacks of aromatic coffee beans in a highland kampung setting. He is proudly showcasing a rich miniature mosque built entirely from coffee beans — domes of dark-roasted whole coffee beans in deep espresso-brown and nearly black French-roast creating a smooth lustrous surface, minarets of medium-roast beans in warm chestnut-brown and rich amber, walls of green unroasted coffee beans in vivid olive-green and pale chartreuse contrasting boldly with dark-roast beans creating dramatic two-tone geometric patterns, archways of peaberry beans in deep chocolate, windows framed with pale golden dried coffee cherry husks (cascara), and a base of coarsely ground coffee in varying grind sizes from dark-roast powder to light-roast granules creating an ombré effect from nearly black to warm caramel-tan. The rich aroma of coffee fills the air. The setting shows a traditional village with wooden houses, banana trees, coconut palms, bamboo fences, a dirt path, free-range chickens pecking the ground, and a wooden cart nearby. Warm rich café-style lighting, coffee art photography, aromatic atmosphere, 8K resolution.`,
+            nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a warm coffee-brown hijab and a cream batik blouse with brown accents, sitting in a highland kampung coffee garden with coffee trees bearing bright red cherries behind her. She is presenting a stunning miniature mosque made from coffee — glossy dark-roast bean domes in deep rich brown with an almost-black sheen, elegant light-roast bean minarets in warm honey-amber and golden-brown, walls of mixed green beans in vivid olive and pale sage contrasting with dark espresso beans in striking checkerboard patterns, white parchment coffee bean hulls forming delicate window decorations in pale ivory-cream, archways of bright red dried coffee cherries adding a pop of vivid crimson, and a base of fine Turkish-ground coffee in deep mahogany-brown with latte-art-style swirled patterns of lighter cinnamon-brown coffee powder. A steaming cup of black coffee sits beside the mosque. The setting shows thatched-roof wooden houses, a small vegetable garden, clotheslines with batik fabric, free-range chickens, and a cow resting under a shady mango tree. Rich warm moody café lighting, coffee culture photography, 8K resolution.`
         }
     },
     video: {
@@ -1358,6 +1438,966 @@ Dialog nenek (bangga): "Alhamdulillah! Masjid janur nenek. Segar, alami, dan ind
 
 Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
 Audio: Leaves rustling, birds, coconut palms swaying. Soft gamelan music.`
+        },
+        emas: {
+            kakek: `[Detik 0-5] Cinematic close-up of gleaming gold ingots and gold dust sparkling intensely. Cut to a sunlit kampung setting bathed in golden light.
+
+[Detik 5-10] A 66-year-old Indonesian elderly man wearing a white peci and deep burgundy batik sits at a velvet-draped table with gold materials.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari emas murni. Berkilau luar biasa, mewah sekali!"
+
+[Detik 10-18] He carefully shapes and hammers gold into mosque components — mirror-polished gold domes, filigree minarets with swirling arabesque patterns.
+
+Dialog kakek (sambil membentuk): "Emas ini kakek tempa jadi kubah. Lihat kilaunya, seperti matahari! Menaranya dari filigri emas, detail sekali."
+
+[Detik 18-28] Gold leaf walls with embossed Islamic calligraphy and ruby-red gemstone inlays are assembled. The gold surfaces create dazzling warm reflections.
+
+Dialog kakek: "Dindingnya diukir kaligrafi Islam. Jendela pakai batu rubi merah. MasyaAllah, emas ciptaan Allah memang mulia!"
+
+[Detik 28-38] The completed gold mosque radiates intense golden light. Every surface gleams brilliantly.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid emas kakek. Mewah, berkilau, dan penuh kemuliaan."
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Gold hammering sounds, birds, warm atmosphere. Majestic traditional music.`,
+            nenek: `[Detik 0-5] Cinematic shot of gold jewelry pieces sparkling under warm light. A radiant kampung setting.
+
+[Detik 5-10] A 64-year-old Indonesian elderly woman wearing a deep gold hijab and ivory kebaya sits with gold crafting materials.
+
+Dialog nenek: "Assalamualaikum sayang... Nenek bikin masjid dari emas. Berkilau cantik seperti matahari!"
+
+[Detik 10-18] She carefully assembles polished gold domes, slender gold minarets topped with tiny diamond crescents.
+
+Dialog nenek (sambil merakit): "Kubah emasnya berkilau hangat. Menaranya ramping dengan bulan sabit berlian. Cantik sekali."
+
+[Detik 18-28] Hand-engraved gold walls with geometric tessellations and gold tile base in a star pattern.
+
+Dialog nenek: "Dindingnya nenek ukir motif geometris Islam. Alasnya ubin emas pola bintang. Subhanallah!"
+
+[Detik 28-38] The completed gold mosque glows with warm golden radiance.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid emas nenek. Mewah dan bersinar indah."
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Gentle gold sounds, birds, warm light. Majestic soft music.`
+        },
+        perak: {
+            kakek: `[Detik 0-5] Cinematic close-up of polished silver surfaces reflecting cool blue-white light. Cut to a silversmith kampung workshop.
+
+[Detik 5-10] A 68-year-old Indonesian elderly man wearing a black peci and midnight-blue batik sits in his silver workshop.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari perak murni. Berkilau bagai cahaya bulan!"
+
+[Detik 10-18] He twists silver wire into filigree minarets and hammers silver domes with embossed crescent patterns.
+
+Dialog kakek (sambil membentuk): "Perak ini kakek tempa jadi kubah. Kawat perak dipilin jadi menara filigri. Detail sekali seperti renda."
+
+[Detik 18-28] Silver mesh lattice windows and brushed silver base with etched mandala patterns assembled.
+
+Dialog kakek: "Jendela jali dari jaring perak. Alasnya diukir motif mandala. MasyaAllah, perak itu indah dan mulia!"
+
+[Detik 28-38] The completed silver mosque shimmers with cool ethereal moonlit glow.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid perak kakek. Bercahaya seperti sinar rembulan."
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Silver tapping, gentle hammering, birds. Cool ambient traditional music.`,
+            nenek: `[Detik 0-5] Cinematic shot of gleaming silver filigree jewelry. Cool blue-toned kampung workshop.
+
+[Detik 5-10] A 65-year-old Indonesian elderly woman wearing a silver-white hijab and navy velvet kebaya sits with silver tools.
+
+Dialog nenek: "Assalamualaikum... Nenek bikin masjid dari perak. Berkilau dingin seperti bintang!"
+
+[Detik 10-18] She assembles silver domes with floral motifs and silver filigree minarets with tiny bells.
+
+Dialog nenek (sambil merakit): "Kubahnya diukir motif bunga. Menaranya filigri perak dengan lonceng kecil. Cantik ya."
+
+[Detik 18-28] Engraved silver walls with arabesque scrollwork and mirror-polished silver base.
+
+Dialog nenek: "Dindingnya ukiran arabesque. Alasnya seperti cermin berkilau. Subhanallah!"
+
+[Detik 28-38] The completed silver mosque gleams with luminous cool-blue sheen.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid perak nenek. Elegan dan bercahaya."
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Silver chiming, cool breeze, birds. Elegant soft music.`
+        },
+        mutiara: {
+            kakek: `[Detik 0-5] Cinematic close-up of lustrous pearls on black velvet, iridescent light dancing. A warm kampung setting.
+
+[Detik 5-10] A 67-year-old Indonesian elderly man wearing a white peci and cream-white koko sits at a velvet-covered table with pearls.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari mutiara. Berkilau pelangi, indah luar biasa!"
+
+[Detik 10-18] He carefully places pearl domes glowing with pink and blue overtones, graduated pearl minarets.
+
+Dialog kakek (sambil menyusun): "Mutiara South Sea ini jadi kubah. Berkilau pink dan biru. Menaranya dari mutiara kecil sampai besar."
+
+[Detik 18-28] Mother-of-pearl window panels reflecting rainbow iridescence and abalone shell base in vivid greens and purples.
+
+Dialog kakek: "Jendela dari induk mutiara, berkilau pelangi. Alas abalone warnanya hijau dan ungu. MasyaAllah!"
+
+[Detik 28-38] The completed pearl mosque shimmers with dreamy pearlescent luminescence.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid mutiara kakek. Bersinar seperti permata dari lautan."
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Gentle oceanic sounds, pearls clicking, birds. Ethereal ambient music.`,
+            nenek: `[Detik 0-5] Cinematic shot of iridescent pearls in pink and gold tones on dark silk. Warm kampung light.
+
+[Detik 5-10] A 66-year-old Indonesian elderly woman wearing a pearl-white hijab and dusty-rose kebaya sits with pearl collections.
+
+Dialog nenek: "Assalamualaikum sayang... Nenek bikin masjid dari mutiara. Cantik berkilau pelangi!"
+
+[Detik 10-18] She places Akoya pearl domes with pink lustre and Tahitian black pearl minarets with green overtones.
+
+Dialog nenek (sambil menyusun): "Mutiara Akoya ini kubahnya, pink berkilau. Mutiara hitam Tahiti jadi menara. Cantik sekali."
+
+[Detik 18-28] Golden South Sea pearl archways and mother-of-pearl base in swirling turquoise and gold patterns.
+
+Dialog nenek: "Gerbangnya mutiara emas. Alasnya induk mutiara warna toska dan emas. Subhanallah, indah!"
+
+[Detik 28-38] The completed pearl mosque glows ethereally with iridescent beauty.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid mutiara nenek. Bersinar bagai harta karun samudra."
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Ocean whispers, pearls, gentle breeze. Dreamy ambient music.`
+        },
+        bunga: {
+            kakek: `[Detik 0-5] Cinematic close-up of vibrant tropical flowers — blazing red roses, golden sunflowers, purple orchids. Cut to a lush kampung garden.
+
+[Detik 5-10] A 65-year-old Indonesian elderly man wearing a white peci and vivid emerald-green batik sits in a flower-filled garden.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari bunga segar. Warna-warni, harum, cantik luar biasa!"
+
+[Detik 10-18] He carefully arranges crimson rose petal domes, golden sunflower minarets, and orchid-blossom walls.
+
+Dialog kakek (sambil menyusun): "Kelopak mawar merah ini jadi kubah. Bunga matahari kuning emas jadi menara. Anggrek ungu buat dinding."
+
+[Detik 18-28] White jasmine archways, orange marigold borders, and deep green leaf base with frangipani scattered. Butterflies dance around.
+
+Dialog kakek: "Melati putih harum jadi gerbang. Kupu-kupu pun datang! MasyaAllah, bunga ciptaan Allah memang indah!"
+
+[Detik 28-38] The completed flower mosque bursts with vivid saturated colors against the lush green garden.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid bunga kakek. Segar, harum, dan penuh warna kehidupan."
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Bees buzzing, birds singing, butterflies, flower garden ambiance. Cheerful traditional music.`,
+            nenek: `[Detik 0-5] Cinematic shot of baskets overflowing with vivid tropical blooms in magenta, coral, and turquoise. A lush kampung garden.
+
+[Detik 5-10] A 64-year-old Indonesian elderly woman wearing a vibrant magenta hijab and floral kebaya sits surrounded by fresh flowers.
+
+Dialog nenek: "Assalamualaikum anak-anak! Nenek bikin masjid dari bunga. Harum dan cantik!"
+
+[Detik 10-18] She arranges violet hydrangea domes, yellow chrysanthemum minarets, scarlet hibiscus walls.
+
+Dialog nenek (sambil menyusun): "Hydrangea ungu ini jadi kubah. Krisan kuning cerah jadi menara. Kembang sepatu merah buat dinding."
+
+[Detik 18-28] White lily window accents and pink carnation archways with bird-of-paradise flowers. Hummingbirds hover.
+
+Dialog nenek: "Lili putih jadi jendela. Burung kolibri pun tertarik datang! Subhanallah, alam ini penuh keajaiban."
+
+[Detik 28-38] The completed flower mosque in vivid full bloom. Colors are intensely saturated.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid bunga nenek. Segar, harum, memukau!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Garden sounds, butterflies, birds, gentle breeze. Soft cheerful music.`
+        },
+        permen: {
+            kakek: `[Detik 0-5] Cinematic close-up of colorful candies — neon pink lollipops, rainbow gummy bears, striped candy canes. A cheerful kampung setting.
+
+[Detik 5-10] A 66-year-old Indonesian elderly man wearing a brown peci and bright yellow koko sits with overflowing candy jars.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari permen. Warna-warni neon, seru sekali!"
+
+[Detik 10-18] He assembles swirled lollipop domes in electric pink and blue, candy cane minarets in red-and-white stripes.
+
+Dialog kakek (sambil menyusun): "Lollipop ini jadi kubah, warnanya pink neon. Candy cane jadi menara garis merah putih. Lucu kan?"
+
+[Detik 18-28] Rainbow gummy bear walls in mosaic patterns, jelly bean tiles, and glittering rock candy crystal base.
+
+Dialog kakek: "Gummy bear warna-warni jadi dinding mozaik. Permen batu berkilau jadi alas. MasyaAllah, manis dan cantik!"
+
+[Detik 28-38] The completed candy mosque explodes with saturated neon colors.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid permen yang manis dan penuh warna. Dari permen jadi karya seni!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Candy wrapper sounds, cheerful atmosphere, birds. Playful upbeat music.`,
+            nenek: `[Detik 0-5] Cinematic shot of jars filled with vibrant pastel and neon candies. A bright cheerful kampung.
+
+[Detik 5-10] A 65-year-old Indonesian elderly woman wearing a candy-pink hijab and white blouse sits with candy collections.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari permen. Lucu dan warna-warni!"
+
+[Detik 10-18] She arranges pastel marshmallow domes in baby pink and sky blue, twisted licorice minarets.
+
+Dialog nenek (sambil menyusun): "Marshmallow ini jadi kubah pink dan biru. Licorice hitam jadi menara. Lucu ya!"
+
+[Detik 18-28] M&M-style chocolate walls in pixel-art Islamic patterns and fruit candy stained-glass windows.
+
+Dialog nenek: "Cokelat warna-warni jadi dinding motif Islam. Permen buah jadi jendela kaca patri. Subhanallah, kreatif!"
+
+[Detik 28-38] The completed candy mosque in vivid playful colors.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid permen nenek. Manis, ceria, dan penuh imajinasi."
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Candy sounds, cheerful birds, playful atmosphere. Fun upbeat music.`
+        },
+        koral: {
+            kakek: `[Detik 0-5] Cinematic underwater-style shot of vivid neon coral reefs — electric orange staghorn, hot pink soft coral. Cut to a coastal kampung.
+
+[Detik 5-10] A 69-year-old Indonesian elderly man wearing a white peci and deep ocean-blue batik sits near turquoise waters.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari koral. Warnanya neon cerah seperti terumbu karang!"
+
+[Detik 10-18] He carefully arranges vivid staghorn coral domes in electric orange and pink, pillar coral minarets in crimson.
+
+Dialog kakek (sambil menyusun): "Koral staghorn jingga neon ini jadi kubah. Koral pilar merah tua jadi menara. Warnanya luar biasa cerah!"
+
+[Detik 18-28] Brain coral walls in fluorescent yellow-green and fan coral windows in brilliant scarlet with sea glass base.
+
+Dialog kakek: "Koral otak kuning-hijau neon jadi dinding. Kaca laut biru dan hijau jadi alas. MasyaAllah, laut itu penuh keindahan!"
+
+[Detik 28-38] The completed coral mosque vibrates with intensely saturated neon colors.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid koral kakek. Berwarna neon cerah seperti terumbu karang hidup."
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Ocean waves, tropical birds, water splashing. Gentle coastal music.`,
+            nenek: `[Detik 0-5] Cinematic shot of vivid electric pink and magenta soft corals. A beautiful coastal kampung.
+
+[Detik 5-10] A 66-year-old Indonesian elderly woman wearing a vivid turquoise hijab and white blouse sits by the coast.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari koral. Cantik dan berwarna cerah!"
+
+[Detik 10-18] She arranges soft coral domes in brilliant pink and magenta, sea fan minarets in blood-orange.
+
+Dialog nenek (sambil menyusun): "Koral lunak pink cerah ini jadi kubah. Kipas laut jingga tua jadi menara. Indah ya!"
+
+[Detik 18-28] Mushroom coral walls in fluorescent green and table coral archways in cobalt blue.
+
+Dialog nenek: "Koral jamur hijau neon jadi dinding. Gerbangnya koral biru kobalt. Subhanallah, laut indah sekali!"
+
+[Detik 28-38] The completed coral mosque glows with vivid tropical reef colors.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid koral nenek. Cantik berwarna-warni seperti dasar laut."
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Ocean waves, sea breeze, birds. Gentle tropical music.`
+        },
+        lumut: {
+            kakek: `[Detik 0-5] Cinematic shot of ancient moss-covered stones with dewdrops glistening. A misty highland kampung.
+
+[Detik 5-10] A 68-year-old Indonesian elderly man wearing a black peci and deep forest-green batik sits on a mossy stone.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari lumut dan pakis hidup. Segar, hijau, dan alami!"
+
+[Detik 10-18] He arranges thick emerald cushion moss domes with dewdrops and maidenhair fern minarets.
+
+Dialog kakek (sambil menyusun): "Lumut bantal hijau zamrud ini jadi kubah. Ada embun seperti berlian! Pakis suplir jadi menara."
+
+[Detik 18-28] Sheet moss walls in lime to forest green gradient with tiny white mushrooms and orange fungi.
+
+Dialog kakek: "Dindingnya lumut gradasi hijau muda sampai tua. Ada jamur kecil oranye. MasyaAllah, hutan itu ajaib!"
+
+[Detik 28-38] The completed moss mosque in ethereal misty forest light with morning mist swirling.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid lumut yang hidup dan bernapas. Segar seperti hutan di pagi hari."
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Forest sounds, dripping dew, birds chirping, rustling leaves. Mystical ambient music.`,
+            nenek: `[Detik 0-5] Cinematic shot of enchanted mossy forest clearing with ferns and wildflowers. Highland kampung.
+
+[Detik 5-10] A 65-year-old Indonesian elderly woman wearing a sage-green hijab and brown batik sits in a mossy clearing.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari lumut dan pakis. Seperti dari dunia dongeng!"
+
+[Detik 10-18] She places velvety sphagnum moss domes in chartreuse and sword fern minarets.
+
+Dialog nenek (sambil menyusun): "Lumut sphagnum hijau terang ini jadi kubah. Pakis pedang jadi menara tinggi. Cantik ya!"
+
+[Detik 18-28] Different moss species walls creating tapestry of greens with tiny red toadstools and violet wildflowers.
+
+Dialog nenek: "Dindingnya bermacam lumut hijau. Ada jamur merah kecil dan bunga ungu. Subhanallah, alam ini ajaib!"
+
+[Detik 28-38] The completed moss mosque with dewdrops sparkling like jewels.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid lumut nenek. Hidup, segar, dan penuh keajaiban alam."
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Forest ambient, dewdrops, birds, gentle wind. Enchanting soft music.`
+        },
+        stik_eskrim: {
+            kakek: `[Detik 0-5] Cinematic close-up of colorful popsicle sticks sorted by vivid colors — cherry-red, royal blue, sunflower-yellow. A bright kampung.
+
+[Detik 5-10] A 67-year-old Indonesian elderly man wearing a white peci and sky-blue batik sits with bundles of sticks.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari stik es krim. Warna-warni cerah, kreatif!"
+
+[Detik 10-18] He carefully layers stick domes stained in vivid cherry-red and royal blue, paints geometric minarets.
+
+Dialog kakek (sambil menyusun): "Stik merah dan biru jadi kubah. Menara dicat kuning dan hijau bergaris. Rapi sekali!"
+
+[Detik 18-28] Interlocking stick walls with cutout patterns painted in hot pink and turquoise, rainbow gradient base.
+
+Dialog kakek: "Dindingnya motif geometris pink dan toska. Alas gradasi pelangi dari ungu sampai merah. MasyaAllah!"
+
+[Detik 28-38] The completed popsicle stick mosque in vivid rainbow colors.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid stik es krim. Warna-warni pelangi, karya seni dari bahan sederhana!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Wood stacking, birds, cheerful atmosphere. Bright upbeat craft music.`,
+            nenek: `[Detik 0-5] Cinematic shot of sorted colorful popsicle sticks in rainbow arrangement. A warm cheerful kampung.
+
+[Detik 5-10] A 64-year-old Indonesian elderly woman wearing a coral-pink hijab and cream blouse sits at a craft table.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari stik es krim. Cantik dan penuh warna!"
+
+[Detik 10-18] She paints and layers stick domes in pastel lavender and mint green with floral details.
+
+Dialog nenek (sambil mencat): "Kubahnya pastel ungu dan hijau mint. Nenek lukis motif bunga kecil. Manis ya!"
+
+[Detik 18-28] Woven stick walls in lemon-yellow and violet checkerboard, sunburst base in ocean-blue gradient.
+
+Dialog nenek: "Dindingnya kotak-kotak kuning dan ungu. Alas pola matahari biru gradasi. Subhanallah, kreatif!"
+
+[Detik 28-38] The completed popsicle stick mosque with tiny painted trees and flowers.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid stik es krim nenek. Ceria, berwarna, dan penuh kreativitas."
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Wood sounds, painting, birds, cheerful ambiance. Cute upbeat music.`
+        },
+        tali: {
+            kakek: `[Detik 0-5] Cinematic close-up of coils of rope and twine in natural and dyed vivid colors. A warm kampung setting.
+
+[Detik 5-10] A 70-year-old Indonesian elderly man wearing a cream peci and dark brown shirt sits surrounded by rope coils.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari tali dan tambang. Kuat, bertekstur, warna alam!"
+
+[Detik 10-18] He coils manila rope domes in golden-tan spirals and winds sisal rope minarets tightly.
+
+Dialog kakek (sambil menggulung): "Tali manila emas ini kakek gulung jadi kubah spiral. Sisal jadi menara. Rapi dan kuat!"
+
+[Detik 18-28] Braided jute walls with crimson and indigo cotton cord in diamond patterns, macramé windows.
+
+Dialog kakek: "Tali goni dianyam dengan benang merah dan biru tua motif belah ketupat. Jendela macramé kuning safron. MasyaAllah!"
+
+[Detik 28-38] The completed rope mosque with rich tactile textures in natural and vivid dyed colors.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid tali tambang. Kuat, bertekstur, dan penuh warna alam."
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Rope sounds, birds, gentle breeze. Rustic traditional music.`,
+            nenek: `[Detik 0-5] Cinematic shot of colorful rope bundles and macramé projects. A warm kampung veranda.
+
+[Detik 5-10] A 65-year-old Indonesian elderly woman wearing an ochre-yellow hijab and dark blue batik sits with rope materials.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari tali. Cantik dengan teknik macramé!"
+
+[Detik 10-18] She coils cotton rope domes in coral-pink and cream spirals, wraps jute minarets with turquoise thread.
+
+Dialog nenek (sambil menggulung): "Tali katun pink dan krem jadi kubah spiral. Menara goni dengan aksen toska. Cantik ya!"
+
+[Detik 18-28] Macramé walls in magenta and lime green floral knot patterns, braided base in yellow and cobalt.
+
+Dialog nenek: "Dindingnya macramé magenta dan hijau limau motif bunga. Alas kuning dan biru. Subhanallah!"
+
+[Detik 28-38] The completed rope mosque with tassel decorations in purple and gold.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid tali nenek. Lembut, cantik, dan penuh seni tekstil."
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Rope twisting, gentle breeze, birds. Warm textile art music.`
+        },
+        pelepah: {
+            kakek: `[Detik 0-5] Cinematic close-up of dried banana bark layers in warm amber, caramel, and chocolate-brown tones. A kampung yard with banana trees.
+
+[Detik 5-10] A 68-year-old Indonesian elderly man wearing a white peci and olive-green shirt sits with stacks of pelepah pisang.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari pelepah pisang. Warna alam yang hangat dan indah!"
+
+[Detik 10-18] He layers dried pelepah domes with natural striations in amber and chocolate-brown gradients.
+
+Dialog kakek (sambil menyusun): "Pelepah pisang kering ini warnanya gradasi dari kuning sampai cokelat tua. Kubahnya berlapis-lapis indah."
+
+[Detik 18-28] Pressed banana bark walls in burnt sienna with decorative curled leaf archways in bronze.
+
+Dialog kakek: "Dindingnya kulit pisang gepeng motif alami. Gerbangnya daun pisang kering melengkung warna perunggu. MasyaAllah!"
+
+[Detik 28-38] The completed banana bark mosque in warm earthy natural tones.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid pelepah pisang. Alami, hangat, dan penuh tekstur."
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Rustling leaves, birds, banana trees swaying. Warm natural music.`,
+            nenek: `[Detik 0-5] Cinematic shot of prepared banana trunk fibers in cream to russet-brown tones. A kampung with banana groves.
+
+[Detik 5-10] A 65-year-old Indonesian elderly woman wearing a chocolate-brown hijab and cream kebaya sits with banana fiber materials.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari pelepah pisang. Warna alamnya hangat dan cantik!"
+
+[Detik 10-18] She layers pelepah domes from pale cream to deep russet-brown like a sunset gradient.
+
+Dialog nenek (sambil menyusun): "Pelepah ini warnanya gradasi krem sampai cokelat kemerahan, seperti sunset. Kubahnya cantik alami."
+
+[Detik 18-28] Pressed fiber walls with natural veining and curled leaf window frames in bronze.
+
+Dialog nenek: "Dindingnya ada urat alami indah. Bingkai jendela daun pisang warna perunggu. Subhanallah!"
+
+[Detik 28-38] The completed banana bark mosque with tiny dried flowers in orange and purple.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid pelepah pisang nenek. Alami, ramah lingkungan, dan indah."
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Banana leaves rustling, birds, gentle breeze. Warm eco-friendly music.`
+        },
+        tempurung: {
+            kakek: `[Detik 0-5] Cinematic close-up of halved coconut shells in rich dark chocolate-brown and caramel tones. A kampung yard with coconut palms.
+
+[Detik 5-10] A 69-year-old Indonesian elderly man wearing a white peci and deep brown batik sits with piles of coconut shells.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari tempurung kelapa. Warna cokelat tua yang indah dan berkilau!"
+
+[Detik 10-18] He arranges polished half-shell domes in deep espresso-brown, stacks carved shell ring minarets.
+
+Dialog kakek (sambil menyusun): "Tempurung ini kakek poles sampai mengkilap. Kubah cokelat tua ini indah sekali. Menara dari cincin batok bertingkat."
+
+[Detik 18-28] Herringbone-patterned walls of cut shell pieces in dark mahogany and creamy white, mosaic base in burnt umber and ivory.
+
+Dialog kakek: "Dindingnya motif herringbone cokelat dan putih gading. Alas mozaik bintang. MasyaAllah, batok kelapa bisa seindah ini!"
+
+[Detik 28-38] The completed coconut shell mosque gleams with warm polished brown tones.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid tempurung kelapa. Kuat, berkilau, dan penuh karya seni!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Coconut tapping, birds, tropical breeze. Warm island music.`,
+            nenek: `[Detik 0-5] Cinematic shot of sorted coconut shell pieces in deep brown and golden tones. A warm kampung veranda.
+
+[Detik 5-10] A 65-year-old Indonesian elderly woman wearing a caramel hijab and cream kebaya sits with shell materials.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari tempurung kelapa. Cantik dan mengkilap!"
+
+[Detik 10-18] She arranges smooth polished half-shell domes in warm brown with golden highlights, carved minarets.
+
+Dialog nenek (sambil menyusun): "Batok kelapa ini nenek poles halus. Kubahnya cokelat keemasan. Menara diukir cantik dari satu batok."
+
+[Detik 18-28] Basket-weave patterned walls of thin shell strips in dark and light brown, lattice windows with geometric cutouts.
+
+Dialog nenek: "Dindingnya anyaman cokelat tua dan muda. Jendela ada motif geometris. Subhanallah, indah sekali!"
+
+[Detik 28-38] The completed coconut shell mosque with tiny carved shell flowers at the entrance.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid tempurung kelapa nenek. Alami, kuat, dan penuh seni!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Coconut shells clinking, birds, gentle breeze. Warm tropical craft music.`
+        },
+        rempah: {
+            kakek: `[Detik 0-5] Cinematic close-up of colorful spices in earthenware bowls — vivid yellow turmeric, deep red chilies, brown cinnamon sticks. A fragrant kampung.
+
+[Detik 5-10] A 70-year-old Indonesian elderly man wearing a brown peci and deep saffron-yellow koko sits with overflowing spice bowls.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari rempah-rempah. Harum dan berwarna-warni!"
+
+[Detik 10-18] He carefully forms bright yellow turmeric powder domes, stacks deep red cinnamon stick minarets with star anise.
+
+Dialog kakek (sambil menyusun): "Kunyit kuning cerah ini jadi kubah. Kayu manis merah tua dan bunga lawang jadi menara. Harumnya luar biasa!"
+
+[Detik 18-28] Walls of dark chocolate cloves with green cardamom pods, archways of golden nutmeg and orange mace.
+
+Dialog kakek: "Cengkeh cokelat tua jadi dinding dengan kapulaga hijau. Pala dan fuli jingga jadi gerbang. MasyaAllah, rempah Indonesia itu luar biasa!"
+
+[Detik 28-38] The completed spice mosque radiates warm saturated earthy colors and seeming fragrance.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid rempah-rempah. Harum, berwarna, dan khas Indonesia!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Spice grinding, mortar and pestle, birds, breeze. Warm Indonesian traditional music.`,
+            nenek: `[Detik 0-5] Cinematic shot of woven baskets of aromatic spices in vivid colors. A warm kampung kitchen setting.
+
+[Detik 5-10] A 66-year-old Indonesian elderly woman wearing a vivid saffron-orange hijab and dark brown batik sits surrounded by spices.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari rempah. Cantik, harum, dan penuh warna!"
+
+[Detik 10-18] She forms brilliant turmeric-golden domes, arranges vanilla bean and saffron minarets.
+
+Dialog nenek (sambil menyusun): "Kunyit emas ini jadi kubah cantik. Vanili cokelat dan safron merah jadi menara. Harumnya seperti di pasar rempah!"
+
+[Detik 18-28] Walls of crushed coriander in olive-green mixed with cayenne-red chili powder, star anise archways.
+
+Dialog nenek: "Ketumbar hijau dan cabai merah jadi dinding bergaris. Bunga lawang cokelat jadi gerbang. Subhanallah, indah sekali!"
+
+[Detik 28-38] The completed spice mosque in warm vivid earthy tones.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid rempah nenek. Harum, cantik, dan penuh cita rasa Indonesia!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Spice aromas, mortar sounds, birds, breeze. Warm spice market music.`
+        },
+        garam: {
+            kakek: `[Detik 0-5] Cinematic shot of geometric salt ponds reflecting the sky like mirrors. A coastal kampung near salt fields.
+
+[Detik 5-10] A 67-year-old Indonesian elderly man wearing a white peci and light blue shirt sits near turquoise salt ponds.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari garam kristal. Berkilau seperti berlian!"
+
+[Detik 10-18] He carefully stacks large sparkling rock salt crystal domes in translucent white, builds pink Himalayan salt minarets.
+
+Dialog kakek (sambil menyusun): "Garam batu putih transparan ini jadi kubah, ada pelangi di dalamnya! Garam pink Himalaya jadi menara merah muda."
+
+[Detik 18-28] Walls of coarse white sea salt in geometric patterns with black Hawaiian salt borders, prismatic salt crystal windows.
+
+Dialog kakek: "Garam laut putih jadi dinding motif geometris. Garam hitam jadi garis kontras. MasyaAllah, kristalnya berkilau!"
+
+[Detik 28-38] The completed salt mosque glitters intensely under tropical sunlight.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid garam kristal. Berkilau, bersinar, seperti istana berlian!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Salt crunching, ocean waves, coastal birds. Bright coastal music.`,
+            nenek: `[Detik 0-5] Cinematic shot of piles of crystalline salt in pure white and vivid pink. A coastal kampung setting.
+
+[Detik 5-10] A 64-year-old Indonesian elderly woman wearing a pure white hijab and pale blue batik sits near salt fields.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari garam. Berkilau cantik seperti kristal!"
+
+[Detik 10-18] She arranges crystalline rock salt domes with rainbow refractions, pink salt minarets in coral-rose tones.
+
+Dialog nenek (sambil menyusun): "Garam batu ini tembus cahaya, ada pelangi di dalamnya! Garam pink jadi menara warna mawar."
+
+[Detik 18-28] Walls of black lava salt and white sea salt geometric inlays, grey Celtic salt accent arches.
+
+Dialog nenek: "Garam hitam dan putih jadi dinding motif Islam. Garam abu-abu jadi lengkungan. Subhanallah, berkilau!"
+
+[Detik 28-38] The completed salt mosque sparkling with crystal brilliance.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid garam nenek. Berkilau, bersih, dan memukau!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Salt crystals, ocean waves, sea breeze, birds. Gentle coastal music.`
+        },
+        marmer: {
+            kakek: `[Detik 0-5] Cinematic close-up of polished marble slabs showing dramatic veining patterns in white, green, and black. A stone workshop.
+
+[Detik 5-10] A 68-year-old Indonesian elderly man wearing a black peci and pristine white koko sits in a stone-carving workshop.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari marmer. Mewah, berkilau, dan megah!"
+
+[Detik 10-18] He sculpts lustrous Carrara white marble domes with grey veining, carves emerald-green Verde Guatemala minarets.
+
+Dialog kakek (sambil memahat): "Marmer Carrara putih ini jadi kubah dengan urat abu-abu mengalir. Marmer hijau zamrud jadi menara. Mewah sekali!"
+
+[Detik 18-28] Nero Marquina black marble walls with white veining, Calacatta Gold archways with honey-gold veining.
+
+Dialog kakek: "Marmer hitam dengan urat putih jadi dinding dramatis. Gerbang marmer emas. MasyaAllah, seperti istana sungguhan!"
+
+[Detik 28-38] The completed marble mosque with mirror-polished surfaces reflecting dramatic light.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid marmer yang megah. Mewah, berkilau, dan abadi!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Stone chiseling, marble polishing, birds. Grand classical music.`,
+            nenek: `[Detik 0-5] Cinematic shot of polished marble samples in white, pink, blue, and red. An elegant kampung workshop.
+
+[Detik 5-10] A 66-year-old Indonesian elderly woman wearing an ivory-white hijab and dark jade-green kebaya sits at a marble table.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari marmer. Cantik mewah dan berkilau!"
+
+[Detik 10-18] She carves gleaming Statuario white marble domes, pink Norwegian marble minarets in vivid rose-pink.
+
+Dialog nenek (sambil memahat): "Marmer putih ini jadi kubah berkilau. Marmer pink jadi menara warna mawar. Cantik dan mewah!"
+
+[Detik 18-28] Blue Sodalite marble walls with white patterns, Honey Onyx windows glowing amber.
+
+Dialog nenek: "Marmer biru royal jadi dinding. Onyx madu bersinar kuning keemasan di jendela. Subhanallah, memukau!"
+
+[Detik 28-38] The completed marble mosque polished to mirror finish.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid marmer nenek. Mewah, berkilau, dan sangat indah!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Stone sculpting, polishing, birds. Elegant classical music.`
+        },
+        lego: {
+            kakek: `[Detik 0-5] Cinematic close-up of thousands of colorful LEGO bricks sorted by vivid primary colors. A bright cheerful kampung.
+
+[Detik 5-10] A 65-year-old Indonesian elderly man wearing a white peci and bright red polo shirt sits with massive LEGO collections.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari LEGO. Warna-warni cerah dan seru!"
+
+[Detik 10-18] He snaps together brilliant royal blue and white dome sections, builds sunflower-yellow and emerald-green minarets.
+
+Dialog kakek (sambil merakit): "Kubah LEGO biru dan putih ini pas sekali. Menara kuning dan hijau bertingkat. Klik, klik, pas! Seru!"
+
+[Detik 18-28] Walls of alternating vivid red, orange, and white bricks in Islamic patterns, purple and turquoise arched doorways.
+
+Dialog kakek: "Dinding merah, oranye, putih motif geometris Islam. Pintu ungu dan toska. MasyaAllah, LEGO bisa jadi masjid!"
+
+[Detik 28-38] The completed LEGO mosque in vivid saturated primary colors.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid LEGO kakek. Warna-warni, kreatif, dan menyenangkan!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: LEGO clicking, cheerful atmosphere, birds. Playful upbeat music.`,
+            nenek: `[Detik 0-5] Cinematic shot of rainbow-sorted LEGO bricks in pastel and vivid colors. A cheerful kampung setting.
+
+[Detik 5-10] A 64-year-old Indonesian elderly woman wearing a bright coral hijab and cheerful yellow blouse sits with LEGO bricks.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari LEGO. Lucu dan penuh warna!"
+
+[Detik 10-18] She builds pastel-pink and lavender dome sections, lime-green and sky-blue minarets with alternating patterns.
+
+Dialog nenek (sambil merakit): "Kubah pink dan ungu pastel ini cantik. Menara hijau limau dan biru langit. Klik, klik, jadi! Lucu ya!"
+
+[Detik 18-28] Vivid magenta, orange, and turquoise walls in playful patterns, transparent LEGO stained-glass windows.
+
+Dialog nenek: "Dinding magenta dan toska motif ceria. Jendela LEGO transparan warna-warni. Subhanallah, kreatif!"
+
+[Detik 28-38] The completed LEGO mosque with tiny LEGO minifigure visitors and flower gardens.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid LEGO nenek. Ceria, lucu, dan penuh imajinasi!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: LEGO clicking, cheerful birds, playful atmosphere. Fun upbeat music.`
+        },
+        kawat: {
+            kakek: `[Detik 0-5] Cinematic close-up of coils of copper, silver, and brass wire catching light. A metalworking kampung bench.
+
+[Detik 5-10] A 69-year-old Indonesian elderly man wearing a black peci and dark grey shirt sits at a metalworking bench with pliers.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari kawat. Berkilau metalik dan penuh detail!"
+
+[Detik 10-18] He twists shimmering copper wire into dense arabesque dome spirals in rose-gold, coils silver aluminum wire minarets.
+
+Dialog kakek (sambil membentuk): "Kawat tembaga rose-gold ini kakek pilin jadi kubah spiral. Kawat perak jadi menara berkilau. Detail sekali!"
+
+[Detik 18-28] Woven brass wire mesh walls in golden lattice patterns, anodized blue wire arches, red enamel wire window frames.
+
+Dialog kakek: "Kawat kuningan emas jadi dinding jala motif bintang. Kawat biru dan merah jadi aksen. MasyaAllah, indah berkilau!"
+
+[Detik 28-38] The completed wire mosque catches light at every angle with metallic reflections.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid kawat yang berkilau. Kuat, detail, dan penuh seni!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Wire bending, metallic sounds, birds. Industrial craft music.`,
+            nenek: `[Detik 0-5] Cinematic shot of colorful wire coils and jewelry tools on a craft table. A warm kampung setting.
+
+[Detik 5-10] A 65-year-old Indonesian elderly woman wearing a warm bronze hijab and dark brown batik sits with wire materials.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari kawat. Cantik berkilau seperti perhiasan!"
+
+[Detik 10-18] She coils gold-plated wire into filigree dome patterns, shapes rose-gold wire minarets with tiny crescents.
+
+Dialog nenek (sambil membentuk): "Kawat emas ini nenek pilin jadi kubah filigri. Menara rose-gold dengan bulan sabit kecil. Cantik ya!"
+
+[Detik 18-28] Woven silver wire lattice walls, vivid turquoise wire windows, purple and emerald wire floral vine base.
+
+Dialog nenek: "Dinding kawat perak halus. Jendela toska cerah. Alas bunga dari kawat ungu dan hijau. Subhanallah!"
+
+[Detik 28-38] The completed wire mosque with stunning warm-cool metallic contrast.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid kawat nenek. Berkilau, halus, dan seperti perhiasan!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Wire bending, gentle metallic chimes, birds. Warm jewelry craft music.`
+        },
+        mosaik: {
+            kakek: `[Detik 0-5] Cinematic close-up of tiny mosaic tiles in every vivid color — cobalt, ruby, emerald, gold. A craft workshop.
+
+[Detik 5-10] A 67-year-old Indonesian elderly man wearing a white peci and rich cobalt-blue batik sits with trays of mosaic tiles.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari mosaik. Warna-warni berkilau ribuan keping!"
+
+[Detik 10-18] He places iridescent glass mosaic tiles on domes in vivid cobalt-blue, turquoise, and gold arabesque patterns.
+
+Dialog kakek (sambil menempel): "Keping mosaik biru kobalt dan emas ini jadi kubah arabesque. Berkilau seperti permata! Sabar ya, satu per satu."
+
+[Detik 18-28] Walls of ceramic tiles in orange, purple, magenta, and yellow zellige patterns, stained-glass mosaic windows.
+
+Dialog kakek: "Dinding zellige jingga, ungu, magenta, kuning. Jendela kaca patri mozaik. MasyaAllah, ribuan warna!"
+
+[Detik 28-38] The completed mosaic mosque glittering with thousands of tiny reflections.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid mosaik kakek. Berkilau ribuan warna, karya seni sejati!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Tile placing, gentle tapping, birds. Mediterranean-inspired music.`,
+            nenek: `[Detik 0-5] Cinematic shot of sorted colorful mosaic tiles and grouting tools. A bright kampung craft area.
+
+[Detik 5-10] A 66-year-old Indonesian elderly woman wearing a vivid teal hijab and white kebaya sits beside mosaic trays.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari mosaik. Cantik berkilau penuh warna!"
+
+[Detik 10-18] She places shimmering Venetian glass smalti tiles on domes in royal-blue and turquoise with gold accents.
+
+Dialog nenek (sambil menempel): "Keping Venesia biru dan toska ini jadi kubah berkilau. Aksen emas seperti sinar matahari. Cantik!"
+
+[Detik 18-28] Walls of Moroccan zellige in saffron, crimson, emerald, and cobalt star-and-cross patterns, gold mosaic windows.
+
+Dialog nenek: "Zellige Maroko kuning, merah, hijau, biru motif bintang. Jendela mosaik emas. Subhanallah, memukau!"
+
+[Detik 28-38] The completed mosaic mosque sparkling with color from every surface.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid mosaik nenek. Berkilau, berwarna, dan sangat indah!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Tile tapping, birds, gentle breeze. Warm Mediterranean music.`
+        },
+        resin: {
+            kakek: `[Detik 0-5] Cinematic close-up of crystal-clear epoxy resin with vivid blue and purple ink swirls. A modern craft workspace.
+
+[Detik 5-10] A 66-year-old Indonesian elderly man wearing a white peci and clean dark navy shirt sits at a resin workspace.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari resin epoksi. Transparan, berkilau, seperti kristal!"
+
+[Detik 10-18] He pours crystal-clear resin with electric-blue and purple alcohol ink creating galaxy patterns, embeds gold leaf.
+
+Dialog kakek (sambil menuang): "Resin bening ini kakek campur tinta biru dan ungu jadi galaksi. Ditaburi emas. Seperti luar angkasa!"
+
+[Detik 18-28] Opaque ocean-teal resin walls with pearlescent shimmer, transparent resin windows with embedded dried flowers.
+
+Dialog kakek: "Dinding resin toska berkilau. Jendela bening dengan bunga asli di dalamnya. MasyaAllah, modern dan indah!"
+
+[Detik 28-38] The completed resin mosque with glass-like polished surfaces and cosmic inner patterns.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid resin kakek. Transparan, berkilau, seperti permata galaksi!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Resin pouring, gentle ambient sounds, birds. Modern electronic ambient music.`,
+            nenek: `[Detik 0-5] Cinematic shot of resin supplies with vivid pigments in magenta, teal, and gold. A clean craft workspace.
+
+[Detik 5-10] A 65-year-old Indonesian elderly woman wearing a deep ocean-blue hijab and white blouse sits at a resin workspace.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari resin. Bening berkilau seperti kaca kristal!"
+
+[Detik 10-18] She pours crystal-clear resin with swirling magenta, teal, and gold pigments creating ocean-wave patterns.
+
+Dialog nenek (sambil menuang): "Resin bening ini nenek campur pigmen magenta dan toska. Jadi pola ombak beku. Cantik sekali!"
+
+[Detik 18-28] Translucent sunset-orange to violet resin walls with embedded seashells, phosphorescent midnight-blue base.
+
+Dialog nenek: "Dinding gradasi jingga ke ungu dengan kerang asli. Alasnya biru malam menyala. Subhanallah, ajaib!"
+
+[Detik 28-38] The completed resin mosque with mesmerizing translucent colors and embedded treasures.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid resin nenek. Transparan, cantik, penuh keajaiban warna!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Resin pouring, gentle sounds, birds. Dreamy ambient music.`
+        },
+        kulit_telur: {
+            kakek: `[Detik 0-5] Cinematic close-up of sorted crushed eggshells in white, speckled brown, and dyed vivid colors. A kampung craft table.
+
+[Detik 5-10] A 68-year-old Indonesian elderly man wearing a brown peci and cream-white koko sits with bowls of eggshell pieces.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari kulit telur. Tekstur retak yang unik dan cantik!"
+
+[Detik 10-18] He carefully places finely crushed white eggshell on domes creating crackle-glaze texture, adds turquoise and crimson dyed shells on minarets.
+
+Dialog kakek (sambil menempel): "Kulit telur putih ini jadi kubah tekstur keramik retak. Menara warna toska dan merah dari kulit telur celup."
+
+[Detik 18-28] Walls of speckled brown shell with saffron and cobalt dyed pieces forming Islamic stars, pale blue quail shell windows.
+
+Dialog kakek: "Dinding kulit telur motif bintang Islam warna kuning dan biru. Jendela kulit telur puyuh. MasyaAllah, detail sekali!"
+
+[Detik 28-38] The completed eggshell mosque with extraordinary crackle texture detail.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid kulit telur. Unik, detail, dan penuh kesabaran!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Eggshell crunching, birds, gentle atmosphere. Delicate craft music.`,
+            nenek: `[Detik 0-5] Cinematic shot of sorted eggshell pieces and fine brushes for dyeing. A warm kampung craft setting.
+
+[Detik 5-10] A 64-year-old Indonesian elderly woman wearing a soft cream hijab and pale sage-green kebaya sits with eggshell materials.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari kulit telur. Cantik dan sangat detail!"
+
+[Detik 10-18] She places snow-white eggshell crackle on domes, adds rose-pink and lavender dyed pieces in petal patterns.
+
+Dialog nenek (sambil menempel): "Kulit telur putih jadi kubah tekstur retak cantik. Warna pink dan ungu muda jadi motif kelopak bunga."
+
+[Detik 18-28] Walls of brown speckled shell mixed with tangerine and plum dyed pieces in floral mosaics, ombre base.
+
+Dialog nenek: "Dinding kulit telur cokelat dengan mozaik jingga dan plum motif bunga. Alas gradasi cantik. Subhanallah!"
+
+[Detik 28-38] The completed eggshell mosque with delicate crackle textures and soft colors.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid kulit telur nenek. Halus, detail, dan penuh ketelitian!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Delicate shell sounds, birds, gentle breeze. Soft craft music.`
+        },
+        kopi: {
+            kakek: `[Detik 0-5] Cinematic close-up of aromatic coffee beans in various roast levels — green, medium amber, dark espresso. A highland kampung.
+
+[Detik 5-10] A 67-year-old Indonesian elderly man wearing a dark brown peci and cream koko sits surrounded by burlap sacks of coffee beans.
+
+Dialog kakek: "Assalamualaikum! Kakek bikin masjid dari biji kopi. Harum dan berwarna cokelat yang kaya!"
+
+[Detik 10-18] He arranges dark-roasted espresso beans into lustrous domes, builds medium-roast chestnut-brown minarets.
+
+Dialog kakek (sambil menyusun): "Kopi sangrai gelap ini jadi kubah berkilau. Sangrai sedang warna cokelat kastanye jadi menara. Harumnya luar biasa!"
+
+[Detik 18-28] Walls of green unroasted beans in olive contrasting with dark roast in two-tone geometric patterns, cascara husk windows.
+
+Dialog kakek: "Kopi hijau dan hitam jadi dinding motif dua warna. Kulit kopi kering jadi jendela emas. MasyaAllah, kopi Indonesia memang terbaik!"
+
+[Detik 28-38] The completed coffee mosque in rich brown tones with a steaming cup beside it.
+
+Dialog kakek (bangga): "Alhamdulillah! Masjid biji kopi. Harum, hangat, dan khas Indonesia!"
+
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Coffee grinding, beans pouring, birds, highland breeze. Warm café jazz music.`,
+            nenek: `[Detik 0-5] Cinematic shot of coffee trees with bright red cherries and sorted beans. A highland kampung coffee garden.
+
+[Detik 5-10] A 65-year-old Indonesian elderly woman wearing a warm coffee-brown hijab and cream batik sits in a coffee garden.
+
+Dialog nenek: "Assalamualaikum! Nenek bikin masjid dari biji kopi. Harum dan cantik!"
+
+[Detik 10-18] She arranges glossy dark-roast bean domes, builds honey-amber light-roast minarets.
+
+Dialog nenek (sambil menyusun): "Kopi hitam berkilau ini jadi kubah. Kopi sangrai muda warna madu jadi menara. Harumnya bikin semangat!"
+
+[Detik 18-28] Walls of green and espresso beans in checkerboard patterns, bright red dried coffee cherry archways, Turkish coffee powder base.
+
+Dialog nenek: "Kopi hijau dan hitam jadi dinding kotak-kotak. Buah kopi merah jadi gerbang. Alas bubuk kopi dengan motif latte art. Subhanallah!"
+
+[Detik 28-38] The completed coffee mosque in rich warm brown tones with a steaming cup beside it.
+
+Dialog nenek (bangga): "Alhamdulillah! Masjid biji kopi nenek. Harum, hangat, dan penuh cinta!"
+
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Coffee beans, highland breeze, birds singing. Warm café music.`
         }
     }
 };
@@ -1389,12 +2429,33 @@ const MATERIAL_LABELS = {
     keramik: 'Keramik',
     semen: 'Semen',
     rotan: 'Rotan',
-    janur: 'Janur Kelapa'
+    janur: 'Janur Kelapa',
+    emas: 'Emas',
+    perak: 'Perak',
+    mutiara: 'Mutiara',
+    bunga: 'Bunga Segar',
+    permen: 'Permen',
+    koral: 'Koral',
+    lumut: 'Lumut & Pakis',
+    stik_eskrim: 'Stik Es Krim',
+    tali: 'Tali Tambang',
+    pelepah: 'Pelepah Pisang',
+    tempurung: 'Tempurung Kelapa',
+    rempah: 'Rempah-rempah',
+    garam: 'Garam',
+    marmer: 'Marmer',
+    lego: 'Lego',
+    kawat: 'Kawat',
+    mosaik: 'Mosaik',
+    resin: 'Resin Epoksi',
+    kulit_telur: 'Kulit Telur',
+    kopi: 'Biji Kopi'
 };
 
 const CHARACTER_LABELS = {
     kakek: 'Kakek (Berpeci)',
-    nenek: 'Nenek (Berkerudung)'
+    nenek: 'Nenek (Berkerudung)',
+    wanita: 'Wanita Muda (Berkerudung)'
 };
 
 const PLATFORM_LABELS = {
@@ -1741,7 +2802,7 @@ function injectLocation(prompt, locationSetting, platform) {
 function cleanDialogForGrok(prompt) {
     return prompt
         // Clean dialog lines: remove quotes but keep text, fix special chars
-        .replace(/Dialog\s+(kakek|nenek)(\s*\([^)]*\))?\s*:\s*"([^"]*)"/gi,
+        .replace(/Dialog\s+(kakek|nenek|wanita)(\s*\([^)]*\))?\s*:\s*"([^"]*)"/gi,
             (match, char, paren, dialogText) => {
                 const label = paren
                     ? `Dialog ${char} ${paren.trim()}`
