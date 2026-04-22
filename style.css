@@ -266,6 +266,23 @@ body::after {
   font-weight: 700;
 }
 
+/* Grok-specific active styling */
+.btn-platform[data-value="grok"].active {
+  background: linear-gradient(135deg, rgba(255, 140, 50, 0.18), rgba(255, 100, 30, 0.06));
+  border-color: #ff8c32;
+  color: #ffb870;
+  box-shadow: 0 0 20px rgba(255, 140, 50, 0.18), inset 0 0 20px rgba(255, 140, 50, 0.06);
+}
+
+.btn-platform[data-value="grok"].active::after {
+  color: #ff8c32;
+}
+
+.btn-platform[data-value="grok"]:hover {
+  border-color: rgba(255, 140, 50, 0.4);
+  box-shadow: 0 4px 20px rgba(255, 140, 50, 0.1);
+}
+
 .btn-select .emoji {
   font-size: 1.3rem;
 }
@@ -822,6 +839,7 @@ body::after {
   text-align: right;
   margin-top: 8px;
   font-weight: 400;
+}
 
 /* ─── Scene Selector ─── */
 .panel-scene {
@@ -880,4 +898,32 @@ body::after {
   color: var(--gold-light);
   box-shadow: 0 0 15px rgba(212, 168, 67, 0.15);
 }
+
+/* ─── Grok Mode Selector ─── */
+.panel-grok-mode {
+  border-color: rgba(255, 140, 50, 0.25);
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.8), rgba(40, 25, 15, 0.4));
+  animation: fadeIn 0.4s ease;
+}
+
+.grok-badge {
+  background: rgba(255, 140, 50, 0.15) !important;
+  border-color: rgba(255, 140, 50, 0.25) !important;
+  color: #ffb870 !important;
+}
+
+.btn-grok-mode.active {
+  background: linear-gradient(135deg, rgba(255, 140, 50, 0.18), rgba(255, 100, 30, 0.06));
+  border-color: #ff8c32;
+  color: #ffb870;
+  box-shadow: 0 0 20px rgba(255, 140, 50, 0.18), inset 0 0 20px rgba(255, 140, 50, 0.06);
+}
+
+.btn-grok-mode.active::after {
+  color: #ff8c32;
+}
+
+.btn-grok-mode:hover {
+  border-color: rgba(255, 140, 50, 0.4);
+  box-shadow: 0 4px 20px rgba(255, 140, 50, 0.1);
 }
