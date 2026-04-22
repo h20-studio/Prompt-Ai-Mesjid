@@ -1399,7 +1399,8 @@ const CHARACTER_LABELS = {
 
 const PLATFORM_LABELS = {
     image: 'Google Flow / Imagen Pro',
-    video: 'Veo 3'
+    video: 'Veo 3',
+    grok: 'Grok / xAI Aurora'
 };
 
 // ─── Locations Data (80 lokasi) ───
@@ -1492,7 +1493,8 @@ let state = {
     material: null,
     character: null,
     location: null,
-    scene: null  // null for image, '0'|'1'|'2'|'full' for video
+    scene: null,  // null for image, '0'|'1'|'2'|'full' for video
+    grokMode: null // null for non-grok, 'image'|'video' for grok
 };
 
 // ─── Scene Labels ───
@@ -1510,6 +1512,8 @@ const characterBtns = document.querySelectorAll('.btn-character');
 const sceneBtns = document.querySelectorAll('.btn-scene');
 const btnSceneFull = document.getElementById('btnSceneFull');
 const scenePanel = document.getElementById('scenePanel');
+const grokModePanel = document.getElementById('grokModePanel');
+const grokModeBtns = document.querySelectorAll('.btn-grok-mode');
 const generateBtn = document.getElementById('generateBtn');
 const outputSection = document.getElementById('outputSection');
 const outputBox = document.getElementById('outputBox');
@@ -1571,15 +1575,29 @@ function setupButtonGroup(buttons, stateKey) {
             setTimeout(() => btn.classList.remove('pop'), 200);
             state[stateKey] = btn.dataset.value;
 
-            // Show/hide scene panel when platform changes
+            // Show/hide panels when platform changes
             if (stateKey === 'platform') {
                 if (btn.dataset.value === 'video') {
                     scenePanel.style.display = 'block';
-                } else {
+                    grokModePanel.style.display = 'none';
+                    state.grokMode = null;
+                    grokModeBtns.forEach(b => b.classList.remove('active'));
+                } else if (btn.dataset.value === 'grok') {
+                    grokModePanel.style.display = 'block';
                     scenePanel.style.display = 'none';
                     state.scene = null;
+                    state.grokMode = null;
                     sceneBtns.forEach(b => b.classList.remove('active'));
                     btnSceneFull.classList.remove('active');
+                    grokModeBtns.forEach(b => b.classList.remove('active'));
+                } else {
+                    scenePanel.style.display = 'none';
+                    grokModePanel.style.display = 'none';
+                    state.scene = null;
+                    state.grokMode = null;
+                    sceneBtns.forEach(b => b.classList.remove('active'));
+                    btnSceneFull.classList.remove('active');
+                    grokModeBtns.forEach(b => b.classList.remove('active'));
                 }
             }
 
@@ -1591,6 +1609,29 @@ function setupButtonGroup(buttons, stateKey) {
 setupButtonGroup(platformBtns, 'platform');
 setupButtonGroup(materialBtns, 'material');
 setupButtonGroup(characterBtns, 'character');
+
+// ─── Grok Mode Button Logic ───
+grokModeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        grokModeBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        btn.classList.add('pop');
+        setTimeout(() => btn.classList.remove('pop'), 200);
+        state.grokMode = btn.dataset.value;
+
+        // Show scene panel if video mode is selected
+        if (btn.dataset.value === 'video') {
+            scenePanel.style.display = 'block';
+        } else {
+            scenePanel.style.display = 'none';
+            state.scene = null;
+            sceneBtns.forEach(b => b.classList.remove('active'));
+            btnSceneFull.classList.remove('active');
+        }
+
+        updateGenerateBtn();
+    });
+});
 
 // ─── Scene Button Logic ───
 sceneBtns.forEach(btn => {
@@ -1617,6 +1658,15 @@ function updateGenerateBtn() {
     const baseSelected = state.platform && state.material && state.character && state.location;
     if (state.platform === 'video') {
         generateBtn.disabled = !(baseSelected && state.scene !== null);
+    } else if (state.platform === 'grok') {
+        // Grok requires mode selection; if video mode, also requires scene
+        if (!state.grokMode) {
+            generateBtn.disabled = true;
+        } else if (state.grokMode === 'video') {
+            generateBtn.disabled = !(baseSelected && state.scene !== null);
+        } else {
+            generateBtn.disabled = !baseSelected;
+        }
     } else {
         generateBtn.disabled = !baseSelected;
     }
@@ -1674,7 +1724,7 @@ function extractScene(fullPrompt, sceneNumber) {
 
 // ─── Inject Location into Prompt ───
 function injectLocation(prompt, locationSetting, platform) {
-    if (platform === 'image') {
+    if (platform === 'image' || platform === 'grok') {
         return prompt.replace(
             /The setting is [^.]+\.|The kampung background [^.]+\.|The village background [^.]+\.|Behind him,[^.]+\.|Behind her,[^.]+\.|The kampung scene behind her [^.]+\.|Village backdrop [^.]+\.|Surrounding her [^.]+\. The village setting [^.]+\./gi,
             `The setting is ${locationSetting}.`
@@ -1687,14 +1737,50 @@ function injectLocation(prompt, locationSetting, platform) {
     }
 }
 
+// ─── Clean Dialog for Grok (Fix Noise without Removing Dialog) ───
+function cleanDialogForGrok(prompt) {
+    return prompt
+        // Clean dialog lines: remove quotes but keep text, fix special chars
+        .replace(/Dialog\s+(kakek|nenek)(\s*\([^)]*\))?\s*:\s*"([^"]*)"/gi,
+            (match, char, paren, dialogText) => {
+                const label = paren
+                    ? `Dialog ${char} ${paren.trim()}`
+                    : `Dialog ${char}`;
+                const cleanText = dialogText
+                    .replace(/\.\.\./g, ', ')      // Ellipsis → comma
+                    .replace(/\.\.\s*/g, ', ')      // Double dot → comma
+                    .replace(/!{2,}/g, '!')         // Multiple ! → single
+                    .replace(/\?{2,}/g, '?')        // Multiple ? → single
+                    .replace(/—/g, ', ')             // Em dash → comma
+                    .replace(/–/g, ', ')             // En dash → comma
+                    .replace(/\s{2,}/g, ' ')         // Multiple spaces → single
+                    .replace(/,\s*,/g, ',')          // Double commas → single
+                    .replace(/,\s*\./g, '.')         // Comma before period → period
+                    .trim();
+                return `${label}: ${cleanText}`;
+            })
+        // Clean up multiple consecutive newlines
+        .replace(/\n{3,}/g, '\n\n')
+        .trim();
+}
+
 // ─── Generate Prompt ───
 generateBtn.addEventListener('click', () => {
-    const { platform, material, character, location, scene } = state;
+    const { platform, material, character, location, scene, grokMode } = state;
 
     if (!platform || !material || !character || !location) return;
     if (platform === 'video' && scene === null) return;
+    if (platform === 'grok' && !grokMode) return;
+    if (platform === 'grok' && grokMode === 'video' && scene === null) return;
 
-    let prompt = PROMPTS[platform]?.[material]?.[character];
+    // Determine which prompt set to use
+    let promptKey;
+    if (platform === 'grok') {
+        promptKey = grokMode; // 'image' or 'video'
+    } else {
+        promptKey = platform; // 'image' or 'video'
+    }
+    let prompt = PROMPTS[promptKey]?.[material]?.[character];
 
     if (!prompt) {
         outputBox.textContent = '❌ Prompt tidak ditemukan untuk kombinasi ini.';
@@ -1704,22 +1790,35 @@ generateBtn.addEventListener('click', () => {
     // Find location data
     const locData = LOCATIONS.find(l => l.id === location);
     if (locData) {
-        prompt = injectLocation(prompt, locData.setting, platform);
+        const effectivePlatform = (platform === 'grok') ? grokMode : platform;
+        prompt = injectLocation(prompt, locData.setting, effectivePlatform);
     }
 
     // Extract scene for video prompts
-    if (platform === 'video' && scene !== null) {
+    const isVideoMode = (platform === 'video') || (platform === 'grok' && grokMode === 'video');
+    if (isVideoMode && scene !== null) {
         prompt = extractScene(prompt, scene);
+    }
+
+    // Clean dialog formatting for Grok video mode (keep dialog, remove noise)
+    if (platform === 'grok' && grokMode === 'video') {
+        prompt = cleanDialogForGrok(prompt);
     }
 
     // Update output
     outputBox.textContent = prompt;
-    outputTagPlatform.textContent = PLATFORM_LABELS[platform];
+    // Show platform label with Grok mode info
+    if (platform === 'grok') {
+        const modeLabel = grokMode === 'image' ? 'Gambar' : 'Video';
+        outputTagPlatform.textContent = `Grok / xAI Aurora (${modeLabel})`;
+    } else {
+        outputTagPlatform.textContent = PLATFORM_LABELS[platform];
+    }
     outputTagMaterial.textContent = MATERIAL_LABELS[material];
     outputTagCharacter.textContent = CHARACTER_LABELS[character];
 
     // Add scene info for video
-    const sceneInfo = (platform === 'video' && scene !== null) ? ` • ${SCENE_LABELS[scene]}` : '';
+    const sceneInfo = (isVideoMode && scene !== null) ? ` • ${SCENE_LABELS[scene]}` : '';
     charCount.textContent = `${prompt.length} karakter${sceneInfo}`;
 
     // Show output section
