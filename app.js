@@ -14,12 +14,168 @@ const PROMPTS = {
             nenek: `A hyper-realistic photograph of a 67-year-old Indonesian elderly woman wearing a cream-colored hijab and a modest brown batik dress, sitting in the shaded veranda (teras) of a wooden kampung house. She is proudly presenting a miniature mosque sculpted from dark brown clay (tanah), with smooth domes, carved minarets, and tiny arched windows. Small clay-working tools are beside her. The kampung background features a wooden fence, papaya trees, banana plants, a rooster perched on a fence post, and distant rice paddies. Soft diffused morning light, rich earthy color palette, cinematic photography, 8K resolution.`
         },
         buah: {
-            kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from tropical fruits — watermelon domes, pineapple minarets, dragon fruit walls, mango archways, rambutan decorative accents, and a courtyard paved with sliced starfruit. The vibrant colors of the fruits create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
-            nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh tropical fruits — papaya domes, banana minarets, coconut shell base, orange slice windows, grape decorative elements, and guava accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            apel: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh red apples — crisp apple domes, apple slice minarets, apple skin walls, apple core archways, apple seed decorative accents, and a courtyard paved with diced apple pieces. The vibrant red and green colors of the apples create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh red apples — apple domes, apple minarets, apple base, apple slice windows, apple decorative elements, and apple accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            jeruk: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh oranges — orange domes, orange slice minarets, orange peel walls, orange segment archways, orange seed decorative accents, and a courtyard paved with orange zest. The vibrant orange colors create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh oranges — orange domes, orange minarets, orange base, orange slice windows, orange decorative elements, and orange accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            pisang: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh bananas — banana domes, banana minarets, banana peel walls, banana archways, banana decorative accents, and a courtyard paved with banana slices. The yellow colors of the bananas create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh bananas — banana domes, banana minarets, banana base, banana slice windows, banana decorative elements, and banana accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            mangga: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh mangoes — mango domes, mango minarets, mango skin walls, mango archways, mango seed decorative accents, and a courtyard paved with mango slices. The vibrant colors of the mangoes create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh mangoes — mango domes, mango minarets, mango base, mango slice windows, mango decorative elements, and mango accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            semangka: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh watermelon — watermelon domes, watermelon minarets, watermelon rind walls, watermelon archways, watermelon seed decorative accents, and a courtyard paved with watermelon slices. The red and green colors of the watermelon create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh watermelon — watermelon domes, watermelon minarets, watermelon base, watermelon slice windows, watermelon decorative elements, and watermelon accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            anggur: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh grapes — grape domes, grape minarets, grape skin walls, grape archways, grape seed decorative accents, and a courtyard paved with grape bunches. The purple colors of the grapes create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh grapes — grape domes, grape minarets, grape base, grape windows, grape decorative elements, and grape accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            stroberi: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh strawberries — strawberry domes, strawberry minarets, strawberry walls, strawberry archways, strawberry seed decorative accents, and a courtyard paved with strawberry slices. The red colors of the strawberries create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh strawberries — strawberry domes, strawberry minarets, strawberry base, strawberry slice windows, strawberry decorative elements, and strawberry accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            nanas: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh pineapples — pineapple domes, pineapple minarets, pineapple skin walls, pineapple archways, pineapple leaf decorative accents, and a courtyard paved with pineapple slices. The yellow and green colors of the pineapples create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh pineapples — pineapple domes, pineapple minarets, pineapple base, pineapple slice windows, pineapple decorative elements, and pineapple accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            kiwi: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh kiwis — kiwi domes, kiwi minarets, kiwi skin walls, kiwi archways, kiwi seed decorative accents, and a courtyard paved with kiwi slices. The green and brown colors of the kiwis create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh kiwis — kiwi domes, kiwi minarets, kiwi base, kiwi slice windows, kiwi decorative elements, and kiwi accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            melon: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh melons — melon domes, melon minarets, melon skin walls, melon archways, melon seed decorative accents, and a courtyard paved with melon slices. The orange and green colors of the melons create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh melons — melon domes, melon minarets, melon base, melon slice windows, melon decorative elements, and melon accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            durian: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh durian — durian domes, durian minarets, durian skin walls, durian archways, durian thorn decorative accents, and a courtyard paved with durian flesh. The yellow and brown colors of the durian create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh durian — durian domes, durian minarets, durian base, durian windows, durian decorative elements, and durian accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            rambutan: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh rambutan — rambutan domes, rambutan minarets, rambutan skin walls, rambutan archways, rambutan hair decorative accents, and a courtyard paved with rambutan flesh. The red colors of the rambutan create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh rambutan — rambutan domes, rambutan minarets, rambutan base, rambutan windows, rambutan decorative elements, and rambutan accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            salak: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh salak — salak domes, salak minarets, salak skin walls, salak archways, salak scale decorative accents, and a courtyard paved with salak flesh. The brown colors of the salak create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh salak — salak domes, salak minarets, salak base, salak windows, salak decorative elements, and salak accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            manggis: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh mangosteen — mangosteen domes, mangosteen minarets, mangosteen skin walls, mangosteen archways, mangosteen decorative accents, and a courtyard paved with mangosteen flesh. The purple colors of the mangosteen create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh mangosteen — mangosteen domes, mangosteen minarets, mangosteen base, mangosteen windows, mangosteen decorative elements, and mangosteen accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            duku: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh duku — duku domes, duku minarets, duku skin walls, duku archways, duku decorative accents, and a courtyard paved with duku flesh. The brown colors of the duku create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh duku — duku domes, duku minarets, duku base, duku windows, duku decorative elements, and duku accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            jambu: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh guava — guava domes, guava minarets, guava skin walls, guava archways, guava seed decorative accents, and a courtyard paved with guava slices. The colors of the guava create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh guava — guava domes, guava minarets, guava base, guava slice windows, guava decorative elements, and guava accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            pepaya: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh papaya — papaya domes, papaya minarets, papaya skin walls, papaya archways, papaya seed decorative accents, and a courtyard paved with papaya slices. The orange colors of the papaya create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh papaya — papaya domes, papaya minarets, papaya base, papaya slice windows, papaya decorative elements, and papaya accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            sirsak: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh soursop — soursop domes, soursop minarets, soursop skin walls, soursop archways, soursop thorn decorative accents, and a courtyard paved with soursop flesh. The green colors of the soursop create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh soursop — soursop domes, soursop minarets, soursop base, soursop windows, soursop decorative elements, and soursop accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            nangka: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh jackfruit — jackfruit domes, jackfruit minarets, jackfruit skin walls, jackfruit archways, jackfruit decorative accents, and a courtyard paved with jackfruit flesh. The yellow colors of the jackfruit create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh jackfruit — jackfruit domes, jackfruit minarets, jackfruit base, jackfruit windows, jackfruit decorative elements, and jackfruit accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            },
+            kelapa: {
+                kakek: `A hyper-realistic photograph of a 66-year-old Indonesian elderly man wearing a white peci and a sage green shirt, sitting at a rustic wooden table in front of a traditional Javanese kampung house. He is beaming with pride next to an incredible miniature mosque constructed entirely from fresh coconuts — coconut domes, coconut minarets, coconut shell walls, coconut archways, coconut husk decorative accents, and a courtyard paved with coconut flesh. The brown colors of the coconuts create a stunning mosaic. Behind him, the village scene shows coconut trees, a bamboo bridge over a small stream, chickens, ducks, and children playing in the distance. Bright natural daylight, vivid colors, ultra-sharp detail, food art photography, 8K resolution.`,
+                nenek: `A hyper-realistic photograph of a 64-year-old Indonesian elderly woman wearing a pastel pink hijab and a patterned batik blouse, sitting beside a beautifully arranged miniature mosque made entirely from fresh coconuts — coconut domes, coconut minarets, coconut base, coconut windows, coconut decorative elements, and coconut accent details. She is smiling warmly with both hands gently framing the creation. The kampung background includes a wooden house with a corrugated tin roof, hanging orchids, a stone well, free-roaming roosters, and a lazy cat on the porch. Warm golden sunlight, vibrant colors, ultra-detailed macro photography, 8K resolution.`
+            }
         },
         sayuran: {
-            kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh vegetables — cabbage domes, carrot minarets, eggplant walls, long bean arched doorways, chili pepper crescent finials, corn kernel decorations, and a cucumber courtyard base. The textures and natural colors of the vegetables create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
-            nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from vegetables — pumpkin dome, asparagus minarets, sliced tomato rosette windows, broccoli tree landscaping, bell pepper walls, and a base of layered lettuce leaves. Surrounding her are baskets of fresh vegetables from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            bayam: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh spinach — spinach domes, spinach minarets, spinach leaf walls, spinach arched doorways, spinach decorative accents, and a spinach courtyard base. The green colors of the spinach create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from spinach — spinach dome, spinach minarets, spinach windows, spinach landscaping, spinach walls, and a base of layered spinach leaves. Surrounding her are baskets of fresh spinach from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            kangkung: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh water spinach — water spinach domes, water spinach minarets, water spinach walls, water spinach arched doorways, water spinach decorative accents, and a water spinach courtyard base. The green colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from water spinach — water spinach dome, water spinach minarets, water spinach windows, water spinach landscaping, water spinach walls, and a base of layered water spinach leaves. Surrounding her are baskets of fresh water spinach from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            sawi: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh mustard greens — mustard greens domes, mustard greens minarets, mustard greens walls, mustard greens arched doorways, mustard greens decorative accents, and a mustard greens courtyard base. The green colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from mustard greens — mustard greens dome, mustard greens minarets, mustard greens windows, mustard greens landscaping, mustard greens walls, and a base of layered mustard greens leaves. Surrounding her are baskets of fresh mustard greens from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            kubis: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh cabbage — cabbage domes, cabbage minarets, cabbage walls, cabbage arched doorways, cabbage decorative accents, and a cabbage courtyard base. The green colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from cabbage — cabbage dome, cabbage minarets, cabbage windows, cabbage landscaping, cabbage walls, and a base of layered cabbage leaves. Surrounding her are baskets of fresh cabbage from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            wortel: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh carrots — carrot domes, carrot minarets, carrot walls, carrot arched doorways, carrot decorative accents, and a carrot courtyard base. The orange colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from carrots — carrot dome, carrot minarets, carrot windows, carrot landscaping, carrot walls, and a base of layered carrot slices. Surrounding her are baskets of fresh carrots from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            kentang: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh potatoes — potato domes, potato minarets, potato walls, potato arched doorways, potato decorative accents, and a potato courtyard base. The brown colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from potatoes — potato dome, potato minarets, potato windows, potato landscaping, potato walls, and a base of layered potato slices. Surrounding her are baskets of fresh potatoes from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            tomat: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh tomatoes — tomato domes, tomato minarets, tomato walls, tomato arched doorways, tomato decorative accents, and a tomato courtyard base. The red colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from tomatoes — tomato dome, tomato minarets, tomato windows, tomato landscaping, tomato walls, and a base of layered tomato slices. Surrounding her are baskets of fresh tomatoes from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            timun: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh cucumbers — cucumber domes, cucumber minarets, cucumber walls, cucumber arched doorways, cucumber decorative accents, and a cucumber courtyard base. The green colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from cucumbers — cucumber dome, cucumber minarets, cucumber windows, cucumber landscaping, cucumber walls, and a base of layered cucumber slices. Surrounding her are baskets of fresh cucumbers from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            terong: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh eggplants — eggplant domes, eggplant minarets, eggplant walls, eggplant arched doorways, eggplant decorative accents, and a eggplant courtyard base. The purple colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from eggplants — eggplant dome, eggplant minarets, eggplant windows, eggplant landscaping, eggplant walls, and a base of layered eggplant slices. Surrounding her are baskets of fresh eggplants from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            cabai: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh chilies — chili domes, chili minarets, chili walls, chili arched doorways, chili decorative accents, and a chili courtyard base. The red colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from chilies — chili dome, chili minarets, chili windows, chili landscaping, chili walls, and a base of layered chili pieces. Surrounding her are baskets of fresh chilies from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            bawang_merah: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh red onions — red onion domes, red onion minarets, red onion walls, red onion arched doorways, red onion decorative accents, and a red onion courtyard base. The red colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from red onions — red onion dome, red onion minarets, red onion windows, red onion landscaping, red onion walls, and a base of layered red onion slices. Surrounding her are baskets of fresh red onions from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            bawang_putih: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh garlic — garlic domes, garlic minarets, garlic walls, garlic arched doorways, garlic decorative accents, and a garlic courtyard base. The white colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from garlic — garlic dome, garlic minarets, garlic windows, garlic landscaping, garlic walls, and a base of layered garlic cloves. Surrounding her are baskets of fresh garlic from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            jagung: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh corn — corn domes, corn minarets, corn walls, corn arched doorways, corn decorative accents, and a corn courtyard base. The yellow colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from corn — corn dome, corn minarets, corn windows, corn landscaping, corn walls, and a base of layered corn kernels. Surrounding her are baskets of fresh corn from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            kacang_panjang: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh long beans — long bean domes, long bean minarets, long bean walls, long bean arched doorways, long bean decorative accents, and a long bean courtyard base. The green colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from long beans — long bean dome, long bean minarets, long bean windows, long bean landscaping, long bean walls, and a base of layered long bean pieces. Surrounding her are baskets of fresh long beans from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            pare: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh bitter melon — bitter melon domes, bitter melon minarets, bitter melon walls, bitter melon arched doorways, bitter melon decorative accents, and a bitter melon courtyard base. The green colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from bitter melon — bitter melon dome, bitter melon minarets, bitter melon windows, bitter melon landscaping, bitter melon walls, and a base of layered bitter melon slices. Surrounding her are baskets of fresh bitter melon from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            labu: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh pumpkin — pumpkin domes, pumpkin minarets, pumpkin walls, pumpkin arched doorways, pumpkin decorative accents, and a pumpkin courtyard base. The orange colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from pumpkin — pumpkin dome, pumpkin minarets, pumpkin windows, pumpkin landscaping, pumpkin walls, and a base of layered pumpkin slices. Surrounding her are baskets of fresh pumpkin from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            brokoli: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh broccoli — broccoli domes, broccoli minarets, broccoli walls, broccoli arched doorways, broccoli decorative accents, and a broccoli courtyard base. The green colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from broccoli — broccoli dome, broccoli minarets, broccoli windows, broccoli landscaping, broccoli walls, and a base of layered broccoli florets. Surrounding her are baskets of fresh broccoli from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            kembang_kol: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh cauliflower — cauliflower domes, cauliflower minarets, cauliflower walls, cauliflower arched doorways, cauliflower decorative accents, and a cauliflower courtyard base. The white colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from cauliflower — cauliflower dome, cauliflower minarets, cauliflower windows, cauliflower landscaping, cauliflower walls, and a base of layered cauliflower florets. Surrounding her are baskets of fresh cauliflower from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            seledri: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh celery — celery domes, celery minarets, celery walls, celery arched doorways, celery decorative accents, and a celery courtyard base. The green colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from celery — celery dome, celery minarets, celery windows, celery landscaping, celery walls, and a base of layered celery stalks. Surrounding her are baskets of fresh celery from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            },
+            daun_bawang: {
+                kakek: `A hyper-realistic photograph of a 70-year-old Indonesian elderly man wearing a brown peci and a plaid flannel shirt, sitting on a bamboo bench in the front yard of a traditional kampung house. He is displaying an extraordinary miniature mosque built entirely from fresh chives — chive domes, chive minarets, chive walls, chive arched doorways, chive decorative accents, and a chive courtyard base. The green colors create a stunning organic architecture. Village backdrop with wooden houses, a vegetable garden, banana trees, chickens scratching in the dirt, and a goat tied to a post. Soft morning light, rich natural colors, editorial photography quality, 8K.`,
+                nenek: `A hyper-realistic photograph of a 65-year-old Indonesian elderly woman wearing a white hijab and a dark green kebaya, sitting at a wooden table under a shady jackfruit tree in a kampung yard. She proudly showcases a detailed miniature mosque made entirely from chives — chive dome, chive minarets, chive windows, chive landscaping, chive walls, and a base of layered chive leaves. Surrounding her are baskets of fresh chives from the garden. The village setting includes thatched-roof houses, a bamboo fence, drying rice grains on a mat, hens with chicks, and smoke rising from a traditional clay stove (tungku). Warm afternoon glow, vivid colors, ultra-detailed, 8K resolution.`
+            }
         },
         kayu: {
             kakek: `A hyper-realistic photograph of a 68-year-old Indonesian elderly man wearing a black peci and a white collarless shirt, sitting in his woodworking workshop (bengkel kayu) beside a traditional kampung house. He is proudly holding a masterfully carved miniature mosque made entirely from polished teak wood — with intricately carved domes, detailed lattice windows (jali), smooth minarets, Javanese-style carved doors, and a beautifully grained wood base. Wood shavings and carving tools are scattered around. The kampung backdrop shows a wooden house with carved eaves, hanging bird cages, a rooster on the porch railing, coconut trees, and a dirt path. Warm golden hour light highlighting the wood grain, cinematic depth of field, master craftsmanship, 8K.`,
@@ -288,100 +444,606 @@ Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan 
 Audio: Morning ambiance — crickets transitioning to birdsong, a distant rooster crowing, cowbell sounds, soft breeze through leaves, the gentle sounds of clay being shaped. Soft traditional music.`
         },
         buah: {
-            kakek: `[Detik 0-5] Cinematic close-up of tropical fruits — watermelons, pineapples, dragon fruits, mangoes, and rambutans — spread on a rustic wooden table. A wide shot reveals a lush Indonesian kampung setting behind.
+            apel: {
+                kakek: `[Detik 0-5] Cinematic close-up of fresh red apples spread on a rustic wooden table. A wide shot reveals a lush Indonesian kampung setting behind.
 
 [Detik 5-12] A 66-year-old Indonesian elderly man wearing a white peci and sage green shirt sits at the table. He looks at the camera with excitement.
 
-Dialog kakek: "Assalamualaikum! Wah, hari ini kakek senang sekali karena mau bikin masjid dari buah-buahan! Lihat ini, ada semangka, nanas, buah naga, mangga, rambutan — semua buah segar dari kebun kampung kita."
+Dialog kakek: "Assalamualaikum! Wah, hari ini kakek senang sekali karena mau bikin masjid dari apel! Lihat ini, apel merah segar dari kebun kampung kita."
 
-[Detik 12-25] He carefully assembles a miniature mosque from fresh fruits. He places watermelon slices as domes, positions pineapple pieces as minarets, arranges dragon fruit walls, and creates archways from mango slices.
+[Detik 12-25] He carefully assembles a miniature mosque from fresh apples. He places apple halves as domes, positions apple slices as minarets, arranges apple pieces as walls, and creates archways from apple segments.
 
-Dialog kakek (sambil menyusun): "Nah, semangka ini kakek potong setengah buat kubahnya. Pas kan? Warna merahnya cantik. Terus nanasnya kita jadikan menara — warnanya kuning keemasan, seperti masjid asli! Haha..."
+Dialog kakek (sambil menyusun): "Nah, apel ini kakek potong setengah buat kubahnya. Pas kan? Warna merahnya cantik. Terus irisannya kita jadikan menara — warnanya merah keemasan, seperti masjid asli!"
 
-[Detik 25-38] Time-lapse sequence showing the fruit mosque taking shape. The camera captures the vibrant colors and textures — the red of dragon fruit, golden pineapple, green watermelon rind creating beautiful contrast.
+[Detik 25-38] Time-lapse sequence showing the apple mosque taking shape. The camera captures the vibrant red colors and crisp textures of the apples.
 
-Dialog kakek: "Buah naga ini kita pakai buat dindingnya. Lihat warnanya, pink kemerahan, unik sekali. Terus mangga ini kakek iris tipis buat lengkungan pintunya. Subhanallah, buah-buahan ciptaan Allah memang luar biasa indah ya."
+Dialog kakek: "Apel ini kita pakai buat dindingnya. Lihat warnanya, merah segar, cantik sekali. Terus bagian lainnya kakek iris tipis buat lengkungan pintunya. Subhanallah, apel ciptaan Allah memang indah ya."
 
-[Detik 38-50] Wide shot revealing the completed fruit mosque in all its colorful glory, with the kampung village behind — coconut trees, bamboo houses, children playing near a stream, chickens and ducks wandering around.
+[Detik 38-50] Wide shot revealing the completed apple mosque in all its red glory, with the kampung village behind — coconut trees, bamboo houses, children playing near a stream, chickens and ducks wandering around.
 
-Dialog kakek (mengangkat masjid dengan bangga): "Alhamdulillah! Sudah jadi masjid buah-buahan kakek! Warna-warni, segar, cantik. Ini mengajarkan kita bahwa Allah menciptakan alam ini penuh keindahan, tinggal kita yang harus pandai bersyukur."
-
+Dialog kakek (mengangkat masjid dengan bangga): "Alhamdulillah! Sudah jadi masjid apel kakek! Merah, segar, cantik. Ini mengajarkan kita bahwa dari hal sederhana pun bisa jadi karya seni."
 
 [CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
 
 Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
 Audio: Village ambiance — chickens clucking, ducks quacking, children laughing in the distance, birds chirping, wind rustling through palms. Upbeat traditional Indonesian music.`,
-            nenek: `[Detik 0-5] Cinematic close-up of colorful tropical fruits on a wooden table — papaya, bananas, coconut, oranges, grapes, and guava. Cut to a wide shot of a kampung setting.
+                nenek: `[Detik 0-5] Cinematic close-up of fresh red apples on a wooden table. Cut to a wide shot of a kampung setting.
 
 [Detik 5-12] A 64-year-old Indonesian elderly woman wearing a pastel pink hijab and patterned batik blouse looks at the camera with a cheerful smile.
 
-Dialog nenek: "Assalamualaikum anak-anak! Hari ini nenek mau bikin sesuatu yang unik — masjid dari buah-buahan! Seru kan? Ayo kita mulai ya."
+Dialog nenek: "Assalamualaikum anak-anak! Hari ini nenek mau bikin masjid dari apel! Seru kan? Ayo kita mulai ya."
 
-[Detik 12-22] She carefully arranges fruits into a miniature mosque. She places papaya halves as domes, banana pieces as minarets, coconut shell as the base, and orange slices as windows.
+[Detik 12-22] She carefully arranges apples into a miniature mosque. She places apple halves as domes, apple slices as minarets, apple pieces as walls, and apple segments as windows.
 
-Dialog nenek (sambil menyusun): "Pepaya ini nenek belah dua buat kubahnya. Wah, pas banget bentuknya! Terus pisang ini kita potong buat menaranya. Tempurung kelapa ini jadi alasnya — kuat dan kokoh."
+Dialog nenek (sambil menyusun): "Apel ini nenek belah dua buat kubahnya. Wah, pas banget bentuknya! Terus irisannya kita potong buat menaranya. Apel merah ini jadi dindingnya — cantik warnanya."
 
-[Detik 22-35] Close-up montage of her skilled hands assembling each detail. The colors are vibrant and appetizing — warm oranges, creamy yellows, rich greens.
+[Detik 22-35] Close-up montage of her skilled hands assembling each detail. The colors are vibrant red and fresh.
 
-Dialog nenek: "Irisan jeruk ini cantik ya buat jendela masjidnya, bulat-bulat kecil. Terus anggur ini nenek susun buat hiasan. MasyaAllah, buah-buahan ciptaan Allah memang penuh warna dan keindahan."
+Dialog nenek: "Irisan apel ini cantik ya buat jendela masjidnya. Merah segar, seperti buah surga InsyaAllah. MasyaAllah, apel ciptaan Allah memang penuh keindahan."
 
-[Detik 35-48] The completed fruit mosque is revealed in a slow pan — a stunning colorful creation glowing in the warm sunlight. The nenek sits proudly beside it, the kampung stretching behind her with wooden houses, orchids, chickens, and a well.
+[Detik 35-48] The completed apple mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows jasmine bushes, a wooden well, chickens, and rice terraces.
 
-Dialog nenek (bangga): "Alhamdulillah, jadi sudah masjid buah nenek! Warna-warni, segar, bikin senang melihatnya. Semoga bisa menginspirasi kalian untuk berkreasi dengan bahan apa saja yang ada di sekitar kita."
-
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid apel nenek ini spesial karena dibuat dengan cinta."
 
 [CLOSING] The nenek smiles sweetly at the camera and waves gently.
 
 Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
 Audio: Village sounds — birds singing, roosters, gentle breeze, cat purring nearby. Cheerful traditional music.`
+            },
+            jeruk: {
+                kakek: `[Detik 0-5] Cinematic close-up of fresh oranges spread on a rustic wooden table. A wide shot reveals a lush Indonesian kampung setting behind.
+
+[Detik 5-12] A 66-year-old Indonesian elderly man wearing a white peci and sage green shirt sits at the table. He looks at the camera with excitement.
+
+Dialog kakek: "Assalamualaikum! Wah, hari ini kakek senang sekali karena mau bikin masjid dari jeruk! Lihat ini, jeruk segar dari kebun kampung kita."
+
+[Detik 12-25] He carefully assembles a miniature mosque from fresh oranges. He places orange halves as domes, positions orange slices as minarets, arranges orange segments as walls, and creates archways from orange pieces.
+
+Dialog kakek (sambil menyusun): "Nah, jeruk ini kakek potong setengah buat kubahnya. Pas kan? Warna oranyenya cantik. Terus irisannya kita jadikan menara — warnanya keemasan, seperti masjid asli!"
+
+[Detik 25-38] Time-lapse sequence showing the orange mosque taking shape. The camera captures the vibrant orange colors and fresh textures of the oranges.
+
+Dialog kakek: "Jeruk ini kita pakai buat dindingnya. Lihat warnanya, orange segar, cantik sekali. Terus bagian lainnya kakek iris tipis buat lengkungan pintunya. Subhanallah, jeruk ciptaan Allah memang indah ya."
+
+[Detik 38-50] Wide shot revealing the completed orange mosque in all its orange glory, with the kampung village behind — coconut trees, bamboo houses, children playing near a stream, chickens and ducks wandering around.
+
+Dialog kakek (mengangkat masjid dengan bangga): "Alhamdulillah! Sudah jadi masjid jeruk kakek! Orange, segar, cantik. Ini mengajarkan kita bahwa dari hal sederhana pun bisa jadi karya seni."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village ambiance — chickens clucking, ducks quacking, children laughing in the distance, birds chirping, wind rustling through palms. Upbeat traditional Indonesian music.`,
+                nenek: `[Detik 0-5] Cinematic close-up of fresh oranges on a wooden table. Cut to a wide shot of a kampung setting.
+
+[Detik 5-12] A 64-year-old Indonesian elderly woman wearing a pastel pink hijab and patterned batik blouse looks at the camera with a cheerful smile.
+
+Dialog nenek: "Assalamualaikum anak-anak! Hari ini nenek mau bikin masjid dari jeruk! Seru kan? Ayo kita mulai ya."
+
+[Detik 12-22] She carefully arranges oranges into a miniature mosque. She places orange halves as domes, orange slices as minarets, orange segments as walls, and orange pieces as windows.
+
+Dialog nenek (sambil menyusun): "Jeruk ini nenek belah dua buat kubahnya. Wah, pas banget bentuknya! Terus irisannya kita potong buat menaranya. Jeruk orange ini jadi dindingnya — cantik warnanya."
+
+[Detik 22-35] Close-up montage of her skilled hands assembling each detail. The colors are vibrant orange and fresh.
+
+Dialog nenek: "Irisan jeruk ini cantik ya buat jendela masjidnya. Orange segar, seperti buah surga InsyaAllah. MasyaAllah, jeruk ciptaan Allah memang penuh keindahan."
+
+[Detik 35-48] The completed orange mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows jasmine bushes, a wooden well, chickens, and rice terraces.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid jeruk nenek ini spesial karena dibuat dengan cinta."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village sounds — birds singing, roosters, gentle breeze, cat purring nearby. Cheerful traditional music.`
+            },
+            pisang: {
+                kakek: `[Detik 0-5] Cinematic close-up of fresh bananas spread on a rustic wooden table. A wide shot reveals a lush Indonesian kampung setting behind.
+
+[Detik 5-12] A 66-year-old Indonesian elderly man wearing a white peci and sage green shirt sits at the table. He looks at the camera with excitement.
+
+Dialog kakek: "Assalamualaikum! Wah, hari ini kakek senang sekali karena mau bikin masjid dari pisang! Lihat ini, pisang segar dari kebun kampung kita."
+
+[Detik 12-25] He carefully assembles a miniature mosque from fresh bananas. He places banana halves as domes, positions banana slices as minarets, arranges banana pieces as walls, and creates archways from banana segments.
+
+Dialog kakek (sambil menyusun): "Nah, pisang ini kakek potong setengah buat kubahnya. Pas kan? Warna kuningnya cantik. Terus irisannya kita jadikan menara — warnanya keemasan, seperti masjid asli!"
+
+[Detik 25-38] Time-lapse sequence showing the banana mosque taking shape. The camera captures the vibrant yellow colors and fresh textures of the bananas.
+
+Dialog kakek: "Pisang ini kita pakai buat dindingnya. Lihat warnanya, kuning segar, cantik sekali. Terus bagian lainnya kakek iris tipis buat lengkungan pintunya. Subhanallah, pisang ciptaan Allah memang indah ya."
+
+[Detik 38-50] Wide shot revealing the completed banana mosque in all its yellow glory, with the kampung village behind — coconut trees, bamboo houses, children playing near a stream, chickens and ducks wandering around.
+
+Dialog kakek (mengangkat masjid dengan bangga): "Alhamdulillah! Sudah jadi masjid pisang kakek! Kuning, segar, cantik. Ini mengajarkan kita bahwa dari hal sederhana pun bisa jadi karya seni."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village ambiance — chickens clucking, ducks quacking, children laughing in the distance, birds chirping, wind rustling through palms. Upbeat traditional Indonesian music.`,
+                nenek: `[Detik 0-5] Cinematic close-up of fresh bananas on a wooden table. Cut to a wide shot of a kampung setting.
+
+[Detik 5-12] A 64-year-old Indonesian elderly woman wearing a pastel pink hijab and patterned batik blouse looks at the camera with a cheerful smile.
+
+Dialog nenek: "Assalamualaikum anak-anak! Hari ini nenek mau bikin masjid dari pisang! Seru kan? Ayo kita mulai ya."
+
+[Detik 12-22] She carefully arranges bananas into a miniature mosque. She places banana halves as domes, banana slices as minarets, banana pieces as walls, and banana segments as windows.
+
+Dialog nenek (sambil menyusun): "Pisang ini nenek belah dua buat kubahnya. Wah, pas banget bentuknya! Terus irisannya kita potong buat menaranya. Pisang kuning ini jadi dindingnya — cantik warnanya."
+
+[Detik 22-35] Close-up montage of her skilled hands assembling each detail. The colors are vibrant yellow and fresh.
+
+Dialog nenek: "Irisan pisang ini cantik ya buat jendela masjidnya. Kuning segar, seperti buah surga InsyaAllah. MasyaAllah, pisang ciptaan Allah memang penuh keindahan."
+
+[Detik 35-48] The completed banana mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows jasmine bushes, a wooden well, chickens, and rice terraces.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid pisang nenek ini spesial karena dibuat dengan cinta."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village sounds — birds singing, roosters, gentle breeze, cat purring nearby. Cheerful traditional music.`
+            },
+            mangga: {
+                kakek: `[Detik 0-5] Cinematic close-up of fresh mangoes spread on a rustic wooden table. A wide shot reveals a lush Indonesian kampung setting behind.
+
+[Detik 5-12] A 66-year-old Indonesian elderly man wearing a white peci and sage green shirt sits at the table. He looks at the camera with excitement.
+
+Dialog kakek: "Assalamualaikum! Wah, hari ini kakek senang sekali karena mau bikin masjid dari mangga! Lihat ini, mangga segar dari kebun kampung kita."
+
+[Detik 12-25] He carefully assembles a miniature mosque from fresh mangoes. He places mango halves as domes, positions mango slices as minarets, arranges mango pieces as walls, and creates archways from mango segments.
+
+Dialog kakek (sambil menyusun): "Nah, mangga ini kakek potong setengah buat kubahnya. Pas kan? Warna oranyenya cantik. Terus irisannya kita jadikan menara — warnanya keemasan, seperti masjid asli!"
+
+[Detik 25-38] Time-lapse sequence showing the mango mosque taking shape. The camera captures the vibrant orange colors and fresh textures of the mangoes.
+
+Dialog kakek: "Mangga ini kita pakai buat dindingnya. Lihat warnanya, orange segar, cantik sekali. Terus bagian lainnya kakek iris tipis buat lengkungan pintunya. Subhanallah, mangga ciptaan Allah memang indah ya."
+
+[Detik 38-50] Wide shot revealing the completed mango mosque in all its orange glory, with the kampung village behind — coconut trees, bamboo houses, children playing near a stream, chickens and ducks wandering around.
+
+Dialog kakek (mengangkat masjid dengan bangga): "Alhamdulillah! Sudah jadi masjid mangga kakek! Orange, segar, cantik. Ini mengajarkan kita bahwa dari hal sederhana pun bisa jadi karya seni."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village ambiance — chickens clucking, ducks quacking, children laughing in the distance, birds chirping, wind rustling through palms. Upbeat traditional Indonesian music.`,
+                nenek: `[Detik 0-5] Cinematic close-up of fresh mangoes on a wooden table. Cut to a wide shot of a kampung setting.
+
+[Detik 5-12] A 64-year-old Indonesian elderly woman wearing a pastel pink hijab and patterned batik blouse looks at the camera with a cheerful smile.
+
+Dialog nenek: "Assalamualaikum anak-anak! Hari ini nenek mau bikin masjid dari mangga! Seru kan? Ayo kita mulai ya."
+
+[Detik 12-22] She carefully arranges mangoes into a miniature mosque. She places mango halves as domes, mango slices as minarets, mango pieces as walls, and mango segments as windows.
+
+Dialog nenek (sambil menyusun): "Mangga ini nenek belah dua buat kubahnya. Wah, pas banget bentuknya! Terus irisannya kita potong buat menaranya. Mangga orange ini jadi dindingnya — cantik warnanya."
+
+[Detik 22-35] Close-up montage of her skilled hands assembling each detail. The colors are vibrant orange and fresh.
+
+Dialog nenek: "Irisan mangga ini cantik ya buat jendela masjidnya. Orange segar, seperti buah surga InsyaAllah. MasyaAllah, mangga ciptaan Allah memang penuh keindahan."
+
+[Detik 35-48] The completed mango mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows jasmine bushes, a wooden well, chickens, and rice terraces.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid mangga nenek ini spesial karena dibuat dengan cinta."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village sounds — birds singing, roosters, gentle breeze, cat purring nearby. Cheerful traditional music.`
+            },
+            semangka: {
+                kakek: `[Detik 0-5] Cinematic close-up of fresh watermelons spread on a rustic wooden table. A wide shot reveals a lush Indonesian kampung setting behind.
+
+[Detik 5-12] A 66-year-old Indonesian elderly man wearing a white peci and sage green shirt sits at the table. He looks at the camera with excitement.
+
+Dialog kakek: "Assalamualaikum! Wah, hari ini kakek senang sekali karena mau bikin masjid dari semangka! Lihat ini, semangka segar dari kebun kampung kita."
+
+[Detik 12-25] He carefully assembles a miniature mosque from fresh watermelons. He places watermelon halves as domes, positions watermelon slices as minarets, arranges watermelon rind as walls, and creates archways from watermelon pieces.
+
+Dialog kakek (sambil menyusun): "Nah, semangka ini kakek potong setengah buat kubahnya. Pas kan? Warna merahnya cantik. Terus irisannya kita jadikan menara — warnanya merah keemasan, seperti masjid asli!"
+
+[Detik 25-38] Time-lapse sequence showing the watermelon mosque taking shape. The camera captures the vibrant red and green colors and fresh textures of the watermelons.
+
+Dialog kakek: "Kulit semangka ini kita pakai buat dindingnya. Lihat warnanya, hijau dengan merah di dalam, cantik sekali. Terus bagian lainnya kakek iris tipis buat lengkungan pintunya. Subhanallah, semangka ciptaan Allah memang indah ya."
+
+[Detik 38-50] Wide shot revealing the completed watermelon mosque in all its colorful glory, with the kampung village behind — coconut trees, bamboo houses, children playing near a stream, chickens and ducks wandering around.
+
+Dialog kakek (mengangkat masjid dengan bangga): "Alhamdulillah! Sudah jadi masjid semangka kakek! Merah, hijau, segar, cantik. Ini mengajarkan kita bahwa dari hal sederhana pun bisa jadi karya seni."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village ambiance — chickens clucking, ducks quacking, children laughing in the distance, birds chirping, wind rustling through palms. Upbeat traditional Indonesian music.`,
+                nenek: `[Detik 0-5] Cinematic close-up of fresh watermelons on a wooden table. Cut to a wide shot of a kampung setting.
+
+[Detik 5-12] A 64-year-old Indonesian elderly woman wearing a pastel pink hijab and patterned batik blouse looks at the camera with a cheerful smile.
+
+Dialog nenek: "Assalamualaikum anak-anak! Hari ini nenek mau bikin masjid dari semangka! Seru kan? Ayo kita mulai ya."
+
+[Detik 12-22] She carefully arranges watermelons into a miniature mosque. She places watermelon halves as domes, watermelon slices as minarets, watermelon rind as walls, and watermelon pieces as windows.
+
+Dialog nenek (sambil menyusun): "Semangka ini nenek belah dua buat kubahnya. Wah, pas banget bentuknya! Terus irisannya kita potong buat menaranya. Kulit semangka hijau ini jadi dindingnya — cantik warnanya."
+
+[Detik 22-35] Close-up montage of her skilled hands assembling each detail. The colors are vibrant red, green and fresh.
+
+Dialog nenek: "Irisan semangka ini cantik ya buat jendela masjidnya. Merah segar di dalam, seperti buah surga InsyaAllah. MasyaAllah, semangka ciptaan Allah memang penuh keindahan."
+
+[Detik 35-48] The completed watermelon mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows jasmine bushes, a wooden well, chickens, and rice terraces.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid semangka nenek ini spesial karena dibuat dengan cinta."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village sounds — birds singing, roosters, gentle breeze, cat purring nearby. Cheerful traditional music.`
+            },
+            anggur: {
+                kakek: `[Detik 0-5] Cinematic close-up of fresh grapes spread on a rustic wooden table. A wide shot reveals a lush Indonesian kampung setting behind.
+
+[Detik 5-12] A 66-year-old Indonesian elderly man wearing a white peci and sage green shirt sits at the table. He looks at the camera with excitement.
+
+Dialog kakek: "Assalamualaikum! Wah, hari ini kakek senang sekali karena mau bikin masjid dari anggur! Lihat ini, anggur segar dari kebun kampung kita."
+
+[Detik 12-25] He carefully assembles a miniature mosque from fresh grapes. He places grape bunches as domes, positions grape stems as minarets, arranges grape clusters as walls, and creates archways from grape bunches.
+
+Dialog kakek (sambil menyusun): "Nah, tandan anggur ini kakek susun buat kubahnya. Pas kan? Warna unguinya cantik. Terus tangkainya kita jadikan menara — warnanya hijau, seperti masjid asli!"
+
+[Detik 25-38] Time-lapse sequence showing the grape mosque taking shape. The camera captures the vibrant purple colors and fresh textures of the grapes.
+
+Dialog kakek: "Anggur ini kita pakai buat dindingnya. Lihat warnanya, ungu segar, cantik sekali. Terus tandan lainnya kakek susun buat lengkungan pintunya. Subhanallah, anggur ciptaan Allah memang indah ya."
+
+[Detik 38-50] Wide shot revealing the completed grape mosque in all its purple glory, with the kampung village behind — coconut trees, bamboo houses, children playing near a stream, chickens and ducks wandering around.
+
+Dialog kakek (mengangkat masjid dengan bangga): "Alhamdulillah! Sudah jadi masjid anggur kakek! Ungu, segar, cantik. Ini mengajarkan kita bahwa dari hal sederhana pun bisa jadi karya seni."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village ambiance — chickens clucking, ducks quacking, children laughing in the distance, birds chirping, wind rustling through palms. Upbeat traditional Indonesian music.`,
+                nenek: `[Detik 0-5] Cinematic close-up of fresh grapes on a wooden table. Cut to a wide shot of a kampung setting.
+
+[Detik 5-12] A 64-year-old Indonesian elderly woman wearing a pastel pink hijab and patterned batik blouse looks at the camera with a cheerful smile.
+
+Dialog nenek: "Assalamualaikum anak-anak! Hari ini nenek mau bikin masjid dari anggur! Seru kan? Ayo kita mulai ya."
+
+[Detik 12-22] She carefully arranges grapes into a miniature mosque. She places grape bunches as domes, grape stems as minarets, grape clusters as walls, and grape bunches as windows.
+
+Dialog nenek (sambil menyusun): "Tandan anggur ini nenek susun buat kubahnya. Wah, pas banget bentuknya! Terus tangkainya kita potong buat menaranya. Anggur ungu ini jadi dindingnya — cantik warnanya."
+
+[Detik 22-35] Close-up montage of her skilled hands assembling each detail. The colors are vibrant purple and fresh.
+
+Dialog nenek: "Tandan anggur ini cantik ya buat jendela masjidnya. Ungu segar, seperti buah surga InsyaAllah. MasyaAllah, anggur ciptaan Allah memang penuh keindahan."
+
+[Detik 35-48] The completed grape mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows jasmine bushes, a wooden well, chickens, and rice terraces.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid anggur nenek ini spesial karena dibuat dengan cinta."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village sounds — birds singing, roosters, gentle breeze, cat purring nearby. Cheerful traditional music.`
+            },
+            stroberi: {
+                kakek: `[Detik 0-5] Cinematic close-up of fresh strawberries spread on a rustic wooden table. A wide shot reveals a lush Indonesian kampung setting behind.
+
+[Detik 5-12] A 66-year-old Indonesian elderly man wearing a white peci and sage green shirt sits at the table. He looks at the camera with excitement.
+
+Dialog kakek: "Assalamualaikum! Wah, hari ini kakek senang sekali karena mau bikin masjid dari stroberi! Lihat ini, stroberi segar dari kebun kampung kita."
+
+[Detik 12-25] He carefully assembles a miniature mosque from fresh strawberries. He places strawberry halves as domes, positions strawberry slices as minarets, arranges strawberry pieces as walls, and creates archways from strawberry segments.
+
+Dialog kakek (sambil menyusun): "Nah, stroberi ini kakek potong setengah buat kubahnya. Pas kan? Warna merahnya cantik. Terus irisannya kita jadikan menara — warnanya merah keemasan, seperti masjid asli!"
+
+[Detik 25-38] Time-lapse sequence showing the strawberry mosque taking shape. The camera captures the vibrant red colors and fresh textures of the strawberries.
+
+Dialog kakek: "Stroberi ini kita pakai buat dindingnya. Lihat warnanya, merah segar, cantik sekali. Terus bagian lainnya kakek iris tipis buat lengkungan pintunya. Subhanallah, stroberi ciptaan Allah memang indah ya."
+
+[Detik 38-50] Wide shot revealing the completed strawberry mosque in all its red glory, with the kampung village behind — coconut trees, bamboo houses, children playing near a stream, chickens and ducks wandering around.
+
+Dialog kakek (mengangkat masjid dengan bangga): "Alhamdulillah! Sudah jadi masjid stroberi kakek! Merah, segar, cantik. Ini mengajarkan kita bahwa dari hal sederhana pun bisa jadi karya seni."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village ambiance — chickens clucking, ducks quacking, children laughing in the distance, birds chirping, wind rustling through palms. Upbeat traditional Indonesian music.`,
+                nenek: `[Detik 0-5] Cinematic close-up of fresh strawberries on a wooden table. Cut to a wide shot of a kampung setting.
+
+[Detik 5-12] A 64-year-old Indonesian elderly woman wearing a pastel pink hijab and patterned batik blouse looks at the camera with a cheerful smile.
+
+Dialog nenek: "Assalamualaikum anak-anak! Hari ini nenek mau bikin masjid dari stroberi! Seru kan? Ayo kita mulai ya."
+
+[Detik 12-22] She carefully arranges strawberries into a miniature mosque. She places strawberry halves as domes, strawberry slices as minarets, strawberry pieces as walls, and strawberry segments as windows.
+
+Dialog nenek (sambil menyusun): "Stroberi ini nenek belah dua buat kubahnya. Wah, pas banget bentuknya! Terus irisannya kita potong buat menaranya. Stroberi merah ini jadi dindingnya — cantik warnanya."
+
+[Detik 22-35] Close-up montage of her skilled hands assembling each detail. The colors are vibrant red and fresh.
+
+Dialog nenek: "Irisan stroberi ini cantik ya buat jendela masjidnya. Merah segar, seperti buah surga InsyaAllah. MasyaAllah, stroberi ciptaan Allah memang penuh keindahan."
+
+[Detik 35-48] The completed strawberry mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows jasmine bushes, a wooden well, chickens, and rice terraces.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid stroberi nenek ini spesial karena dibuat dengan cinta."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village sounds — birds singing, roosters, gentle breeze, cat purring nearby. Cheerful traditional music.`
+            },
+            nanas: {
+                kakek: `[Detik 0-5] Cinematic close-up of fresh pineapples spread on a rustic wooden table. A wide shot reveals a lush Indonesian kampung setting behind.
+
+[Detik 5-12] A 66-year-old Indonesian elderly man wearing a white peci and sage green shirt sits at the table. He looks at the camera with excitement.
+
+Dialog kakek: "Assalamualaikum! Wah, hari ini kakek senang sekali karena mau bikin masjid dari nanas! Lihat ini, nanas segar dari kebun kampung kita."
+
+[Detik 12-25] He carefully assembles a miniature mosque from fresh pineapples. He places pineapple halves as domes, positions pineapple slices as minarets, arranges pineapple pieces as walls, and creates archways from pineapple segments.
+
+Dialog kakek (sambil menyusun): "Nah, nanas ini kakek potong setengah buat kubahnya. Pas kan? Warna kuningnya cantik. Terus irisannya kita jadikan menara — warnanya keemasan, seperti masjid asli!"
+
+[Detik 25-38] Time-lapse sequence showing the pineapple mosque taking shape. The camera captures the vibrant yellow and green colors and fresh textures of the pineapples.
+
+Dialog kakek: "Nanas ini kita pakai buat dindingnya. Lihat warnanya, kuning dengan hijau, cantik sekali. Terus bagian lainnya kakek iris tipis buat lengkungan pintunya. Subhanallah, nanas ciptaan Allah memang indah ya."
+
+[Detik 38-50] Wide shot revealing the completed pineapple mosque in all its colorful glory, with the kampung village behind — coconut trees, bamboo houses, children playing near a stream, chickens and ducks wandering around.
+
+Dialog kakek (mengangkat masjid dengan bangga): "Alhamdulillah! Sudah jadi masjid nanas kakek! Kuning, hijau, segar, cantik. Ini mengajarkan kita bahwa dari hal sederhana pun bisa jadi karya seni."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village ambiance — chickens clucking, ducks quacking, children laughing in the distance, birds chirping, wind rustling through palms. Upbeat traditional Indonesian music.`,
+                nenek: `[Detik 0-5] Cinematic close-up of fresh pineapples on a wooden table. Cut to a wide shot of a kampung setting.
+
+[Detik 5-12] A 64-year-old Indonesian elderly woman wearing a pastel pink hijab and patterned batik blouse looks at the camera with a cheerful smile.
+
+Dialog nenek: "Assalamualaikum anak-anak! Hari ini nenek mau bikin masjid dari nanas! Seru kan? Ayo kita mulai ya."
+
+[Detik 12-22] She carefully arranges pineapples into a miniature mosque. She places pineapple halves as domes, pineapple slices as minarets, pineapple pieces as walls, and pineapple segments as windows.
+
+Dialog nenek (sambil menyusun): "Nanas ini nenek belah dua buat kubahnya. Wah, pas banget bentuknya! Terus irisannya kita potong buat menaranya. Nanas kuning ini jadi dindingnya — cantik warnanya."
+
+[Detik 22-35] Close-up montage of her skilled hands assembling each detail. The colors are vibrant yellow, green and fresh.
+
+Dialog nenek: "Irisan nanas ini cantik ya buat jendela masjidnya. Kuning segar, seperti buah surga InsyaAllah. MasyaAllah, nanas ciptaan Allah memang penuh keindahan."
+
+[Detik 35-48] The completed pineapple mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows jasmine bushes, a wooden well, chickens, and rice terraces.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid nanas nenek ini spesial karena dibuat dengan cinta."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village sounds — birds singing, roosters, gentle breeze, cat purring nearby. Cheerful traditional music.`
+            },
+            kiwi: {
+                kakek: `[Detik 0-5] Cinematic close-up of fresh kiwis spread on a rustic wooden table. A wide shot reveals a lush Indonesian kampung setting behind.
+
+[Detik 5-12] A 66-year-old Indonesian elderly man wearing a white peci and sage green shirt sits at the table. He looks at the camera with excitement.
+
+Dialog kakek: "Assalamualaikum! Wah, hari ini kakek senang sekali karena mau bikin masjid dari kiwi! Lihat ini, kiwi segar dari kebun kampung kita."
+
+[Detik 12-25] He carefully assembles a miniature mosque from fresh kiwis. He places kiwi halves as domes, positions kiwi slices as minarets, arranges kiwi pieces as walls, and creates archways from kiwi segments.
+
+Dialog kakek (sambil menyusun): "Nah, kiwi ini kakek potong setengah buat kubahnya. Pas kan? Warna hijaunya cantik. Terus irisannya kita jadikan menara — warnanya hijau keemasan, seperti masjid asli!"
+
+[Detik 25-38] Time-lapse sequence showing the kiwi mosque taking shape. The camera captures the vibrant green and brown colors and fresh textures of the kiwis.
+
+Dialog kakek: "Kiwi ini kita pakai buat dindingnya. Lihat warnanya, hijau dengan coklat, cantik sekali. Terus bagian lainnya kakek iris tipis buat lengkungan pintunya. Subhanallah, kiwi ciptaan Allah memang indah ya."
+
+[Detik 38-50] Wide shot revealing the completed kiwi mosque in all its green glory, with the kampung village behind — coconut trees, bamboo houses, children playing near a stream, chickens and ducks wandering around.
+
+Dialog kakek (mengangkat masjid dengan bangga): "Alhamdulillah! Sudah jadi masjid kiwi kakek! Hijau, segar, cantik. Ini mengajarkan kita bahwa dari hal sederhana pun bisa jadi karya seni."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village ambiance — chickens clucking, ducks quacking, children laughing in the distance, birds chirping, wind rustling through palms. Upbeat traditional Indonesian music.`,
+                nenek: `[Detik 0-5] Cinematic close-up of fresh kiwis on a wooden table. Cut to a wide shot of a kampung setting.
+
+[Detik 5-12] A 64-year-old Indonesian elderly woman wearing a pastel pink hijab and patterned batik blouse looks at the camera with a cheerful smile.
+
+Dialog nenek: "Assalamualaikum anak-anak! Hari ini nenek mau bikin masjid dari kiwi! Seru kan? Ayo kita mulai ya."
+
+[Detik 12-22] She carefully arranges kiwis into a miniature mosque. She places kiwi halves as domes, kiwi slices as minarets, kiwi pieces as walls, and kiwi segments as windows.
+
+Dialog nenek (sambil menyusun): "Kiwi ini nenek belah dua buat kubahnya. Wah, pas banget bentuknya! Terus irisannya kita potong buat menaranya. Kiwi hijau ini jadi dindingnya — cantik warnanya."
+
+[Detik 22-35] Close-up montage of her skilled hands assembling each detail. The colors are vibrant green, brown and fresh.
+
+Dialog nenek: "Irisan kiwi ini cantik ya buat jendela masjidnya. Hijau segar, seperti buah surga InsyaAllah. MasyaAllah, kiwi ciptaan Allah memang penuh keindahan."
+
+[Detik 35-48] The completed kiwi mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows jasmine bushes, a wooden well, chickens, and rice terraces.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid kiwi nenek ini spesial karena dibuat dengan cinta."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Village sounds — birds singing, roosters, gentle breeze, cat purring nearby. Cheerful traditional music.`
+            }
         },
         sayuran: {
-            kakek: `[Detik 0-5] Cinematic wide static shot of a kampung vegetable garden at sunrise — rows of cabbages, chilies, tomatoes, eggplants, and corn. A hen and her chicks walk between the rows.
+            bayam: {
+                kakek: `[Detik 0-5] Cinematic wide static shot of a kampung vegetable garden at sunrise — rows of fresh spinach glistening with morning dew. A hen and her chicks walk between the rows.
 
-[Detik 5-12] Cut to a 70-year-old Indonesian elderly man wearing a brown peci and plaid flannel shirt, sitting on a bamboo bench. Around him are baskets of fresh vegetables. He grins at the camera.
+[Detik 5-12] Cut to a 70-year-old Indonesian elderly man wearing a brown peci and plaid flannel shirt, sitting on a bamboo bench. Around him are baskets of fresh spinach. He grins at the camera.
 
-Dialog kakek: "Assalamualaikum! Hari ini kakek mau bikin masjid dari sayuran! Ya, sayuran dari kebun sendiri. Kol, wortel, terong, kacang panjang, cabai — semua ada. Ayo kita mulai!"
+Dialog kakek: "Assalamualaikum! Hari ini kakek mau bikin masjid dari bayam! Bayam segar dari kebun sendiri. Hijau dan sehat!"
 
-[Detik 12-25] Close-up montage: His hands place cabbage halves as domes, stack carrot sticks as minarets, arrange eggplant slices as walls, weave long beans as arched doorways, and top the dome with a chili pepper crescent.
+[Detik 12-25] Close-up montage: His hands place spinach leaves as domes, stack spinach stems as minarets, arrange spinach leaves as walls, weave spinach stems as arched doorways, and top the dome with a spinach leaf crescent.
 
-Dialog kakek (sambil menyusun): "Kol ini bulat, pas banget buat kubah masjid. Wortel yang panjang-panjang ini kita jadikan menara. Terong ungu ini buat dindingnya — warnanya bagus kan? Terus kacang panjang ini kakek lengkungkan jadi pintu gerbang."
+Dialog kakek (sambil menyusun): "Bayam ini lembut, pas banget buat kubah masjid. Batangnya panjang jadi menara. Daunnya hijau buat dindingnya — warnanya bagus kan? Terus batangnya kakek lengkungkan jadi pintu gerbang."
 
-[Detik 25-38] More assembly details. The kakek places corn kernels as decorations and shapes a cucumber courtyard base.
+[Detik 25-38] More assembly details. The kakek places spinach leaves as decorations and shapes a spinach base.
 
-Dialog kakek: "Nah, yang terakhir — cabai merah ini kita taruh di atas kubah jadi bulan sabit! Haha, pedas tapi cantik! Subhanallah, sayuran ciptaan Allah itu nggak cuma buat dimasak, tapi juga bisa jadi karya seni."
+Dialog kakek: "Nah, yang terakhir — daun bayam ini kita taruh di atas kubah jadi bulan sabit! Subhanallah, bayam ciptaan Allah itu nggak cuma sehat dimakan, tapi juga bisa jadi karya seni."
 
-[Detik 38-50] The camera slowly reveals the completed vegetable mosque — a stunning creation of natural greens, purples, oranges, and reds. The kakek sits proudly beside his vegetable mosque, the kampung behind — wooden houses, banana trees, chickens, and a goat tied to a post.
+[Detik 38-50] The camera slowly reveals the completed spinach mosque — a stunning creation of natural greens. The kakek sits proudly beside his spinach mosque, the kampung behind — wooden houses, banana trees, chickens, and a goat tied to a post.
 
-Dialog kakek (bangga): "Alhamdulillah, jadi! Masjid sayuran kakek. Hijau, ungu, oranye, merah — warna-warni alami dari kebun. Indah ya? Ini bukti bahwa keindahan bisa datang dari mana saja."
-
+Dialog kakek (bangga): "Alhamdulillah, jadi! Masjid bayam kakek. Hijau segar, cantik. Ini bukti bahwa keindahan bisa datang dari mana saja."
 
 [CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
 
 Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
 Audio: Rural morning sounds — rooster crowing, birds waking up, goat bleating, cow mooing, sizzling from cooking stove. Gentle background music.`,
-            nenek: `[Detik 0-5] Cinematic wide static shot of a kampung vegetable garden at sunrise — fresh vegetables glistening with morning dew. A hen and her chicks walk through the garden.
+                nenek: `[Detik 0-5] Cinematic wide static shot of a kampung vegetable garden at sunrise — fresh spinach glistening with morning dew. A hen and her chicks walk through the garden.
 
-[Detik 5-12] A 65-year-old Indonesian elderly woman wearing a white hijab and dark green kebaya sits at a wooden table under a jackfruit tree. Baskets of vegetables surround her. She looks at the camera warmly.
+[Detik 5-12] A 65-year-old Indonesian elderly woman wearing a white hijab and dark green kebaya sits at a wooden table under a jackfruit tree. Baskets of spinach surround her. She looks at the camera warmly.
 
-Dialog nenek: "Assalamualaikum anak-anak... Nenek baru panen sayuran dari kebun. Daripada langsung dimasak, bagaimana kalau kita bikin masjid dulu? Yuk!"
+Dialog nenek: "Assalamualaikum anak-anak... Nenek baru panen bayam dari kebun. Daripada langsung dimasak, bagaimana kalau kita bikin masjid dulu? Yuk!"
 
-[Detik 12-22] Close-up of her hands: placing a pumpkin half as the main dome, stacking asparagus as minarets, arranging tomato slices as windows, planting broccoli as miniature trees, and layering lettuce as the base.
+[Detik 12-22] Close-up of her hands: placing spinach leaves as the main dome, stacking spinach stems as minarets, arranging spinach leaves as windows, planting small spinach leaves as miniature trees, and layering spinach as the base.
 
-Dialog nenek (sambil menyusun): "Labu kuning ini bentuknya bulat, cocok sekali jadi kubah masjid. Asparagus yang tinggi-tinggi ini nenek jadikan menara. Irisan tomat merahnya cantik buat jendela... Brokoli ini jadi pohon-pohon kecil di halaman masjid."
+Dialog nenek (sambil menyusun): "Daun bayam ini bentuknya bagus jadi kubah masjid. Batangnya yang panjang-panjang nenek jadikan menara. Daunnya hijau cantik buat jendela... Daun kecil jadi pohon-pohon kecil di halaman masjid."
 
 [Detik 22-35] More detail shots of assembly. She carefully arranges each piece with precision.
 
-Dialog nenek: "Selada ini nenek tata rapi jadi alas halamannya. Hijau segar, seperti taman surga InsyaAllah. MasyaAllah, sayur-mayur itu selain sehat dimakan, ternyata juga bisa jadi karya seni yang indah lho."
+Dialog nenek: "Bayam ini nenek tata rapi jadi alas halamannya. Hijau segar, seperti taman surga InsyaAllah. MasyaAllah, bayam itu selain sehat dimakan, ternyata juga bisa jadi karya seni yang indah lho."
 
-[Detik 35-48] The completed vegetable mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows thatched-roof houses, drying rice, hens and chicks, and smoke from a clay stove.
+[Detik 35-48] The completed spinach mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows thatched-roof houses, drying rice, hens and chicks, and smoke from a clay stove.
 
-Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid sayuran nenek ini pesan moralnya — kita harus bersyukur atas semua nikmat Allah, termasuk sayur-sayuran ini."
-
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid bayam nenek ini pesan moralnya — kita harus bersyukur atas semua nikmat Allah, termasuk bayam ini."
 
 [CLOSING] The nenek smiles sweetly at the camera and waves gently.
 
 Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
 Audio: Rural morning sounds — rooster crowing, crickets fading, birds singing, goat bleating, distant call to prayer, cooking sounds. Gentle traditional music.`
+            },
+            wortel: {
+                kakek: `[Detik 0-5] Cinematic wide static shot of a kampung vegetable garden at sunrise — rows of bright orange carrots in rich soil. A hen and her chicks walk between the rows.
+
+[Detik 5-12] Cut to a 70-year-old Indonesian elderly man wearing a brown peci and plaid flannel shirt, sitting on a bamboo bench. Around him are baskets of fresh carrots. He grins at the camera.
+
+Dialog kakek: "Assalamualaikum! Hari ini kakek mau bikin masjid dari wortel! Wortel segar dari kebun sendiri. Orange dan crunchy!"
+
+[Detik 12-25] Close-up montage: His hands place carrot halves as domes, stack carrot sticks as minarets, arrange carrot slices as walls, weave carrot sticks as arched doorways, and top the dome with a carrot leaf crescent.
+
+Dialog kakek (sambil menyusun): "Wortel ini bulat, pas banget buat kubah masjid. Panjang-panjang ini kita jadikan menara. Irisannya orange buat dindingnya — warnanya bagus kan? Terus batangnya kakek lengkungkan jadi pintu gerbang."
+
+[Detik 25-38] More assembly details. The kakek places carrot slices as decorations and shapes a carrot base.
+
+Dialog kakek: "Nah, yang terakhir — daun wortel ini kita taruh di atas kubah jadi bulan sabit! Subhanallah, wortel ciptaan Allah itu nggak cuma sehat dimakan, tapi juga bisa jadi karya seni."
+
+[Detik 38-50] The camera slowly reveals the completed carrot mosque — a stunning creation of bright orange colors. The kakek sits proudly beside his carrot mosque, the kampung behind — wooden houses, banana trees, chickens, and a goat tied to a post.
+
+Dialog kakek (bangga): "Alhamdulillah, jadi! Masjid wortel kakek. Orange cerah, cantik. Ini bukti bahwa keindahan bisa datang dari mana saja."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Rural morning sounds — rooster crowing, birds waking up, goat bleating, cow mooing, sizzling from cooking stove. Gentle background music.`,
+                nenek: `[Detik 0-5] Cinematic wide static shot of a kampung vegetable garden at sunrise — fresh carrots glistening with morning dew. A hen and her chicks walk through the garden.
+
+[Detik 5-12] A 65-year-old Indonesian elderly woman wearing a white hijab and dark green kebaya sits at a wooden table under a jackfruit tree. Baskets of carrots surround her. She looks at the camera warmly.
+
+Dialog nenek: "Assalamualaikum anak-anak... Nenek baru panen wortel dari kebun. Daripada langsung dimasak, bagaimana kalau kita bikin masjid dulu? Yuk!"
+
+[Detik 12-22] Close-up of her hands: placing carrot halves as the main dome, stacking carrot sticks as minarets, arranging carrot slices as windows, planting carrot tops as miniature trees, and layering carrot slices as the base.
+
+Dialog nenek (sambil menyusun): "Wortel orange ini bentuknya bagus jadi kubah masjid. Batangnya yang panjang-panjang nenek jadikan menara. Irisannya orange cantik buat jendela... Daun wortel jadi pohon-pohon kecil di halaman masjid."
+
+[Detik 22-35] More detail shots of assembly. She carefully arranges each piece with precision.
+
+Dialog nenek: "Wortel ini nenek tata rapi jadi alas halamannya. Orange cerah, seperti buah surga InsyaAllah. MasyaAllah, wortel itu selain sehat dimakan, ternyata juga bisa jadi karya seni yang indah lho."
+
+[Detik 35-48] The completed carrot mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows thatched-roof houses, drying rice, hens and chicks, and smoke from a clay stove.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid wortel nenek ini pesan moralnya — kita harus bersyukur atas semua nikmat Allah, termasuk wortel ini."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Rural morning sounds — rooster crowing, crickets fading, birds singing, goat bleating, distant call to prayer, cooking sounds. Gentle traditional music.`
+            },
+            tomat: {
+                kakek: `[Detik 0-5] Cinematic wide static shot of a kampung vegetable garden at sunrise — rows of bright red tomatoes on vines. A hen and her chicks walk between the rows.
+
+[Detik 5-12] Cut to a 70-year-old Indonesian elderly man wearing a brown peci and plaid flannel shirt, sitting on a bamboo bench. Around him are baskets of fresh tomatoes. He grins at the camera.
+
+Dialog kakek: "Assalamualaikum! Hari ini kakek mau bikin masjid dari tomat! Tomat segar dari kebun sendiri. Merah dan juicy!"
+
+[Detik 12-25] Close-up montage: His hands place tomato halves as domes, stack tomato stems as minarets, arrange tomato slices as walls, weave tomato stems as arched doorways, and top the dome with a tomato crescent.
+
+Dialog kakek (sambil menyusun): "Tomat ini bulat, pas banget buat kubah masjid. Batangnya panjang jadi menara. Irisannya merah buat dindingnya — warnanya bagus kan? Terus batangnya kakek lengkungkan jadi pintu gerbang."
+
+[Detik 25-38] More assembly details. The kakek places tomato slices as decorations and shapes a tomato base.
+
+Dialog kakek: "Nah, yang terakhir — tomat kecil ini kita taruh di atas kubah jadi bulan sabit! Subhanallah, tomat ciptaan Allah itu nggak cuma enak dimakan, tapi juga bisa jadi karya seni."
+
+[Detik 38-50] The camera slowly reveals the completed tomato mosque — a stunning creation of bright red colors. The kakek sits proudly beside his tomato mosque, the kampung behind — wooden houses, banana trees, chickens, and a goat tied to a post.
+
+Dialog kakek (bangga): "Alhamdulillah, jadi! Masjid tomat kakek. Merah cerah, cantik. Ini bukti bahwa keindahan bisa datang dari mana saja."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Rural morning sounds — rooster crowing, birds waking up, goat bleating, cow mooing, sizzling from cooking stove. Gentle background music.`,
+                nenek: `[Detik 0-5] Cinematic wide static shot of a kampung vegetable garden at sunrise — fresh tomatoes glistening with morning dew. A hen and her chicks walk through the garden.
+
+[Detik 5-12] A 65-year-old Indonesian elderly woman wearing a white hijab and dark green kebaya sits at a wooden table under a jackfruit tree. Baskets of tomatoes surround her. She looks at the camera warmly.
+
+Dialog nenek: "Assalamualaikum anak-anak... Nenek baru panen tomat dari kebun. Daripada langsung dimasak, bagaimana kalau kita bikin masjid dulu? Yuk!"
+
+[Detik 12-22] Close-up of her hands: placing tomato halves as the main dome, stacking tomato stems as minarets, arranging tomato slices as windows, planting tomato leaves as miniature trees, and layering tomato slices as the base.
+
+Dialog nenek (sambil menyusun): "Tomat merah ini bentuknya bagus jadi kubah masjid. Batangnya yang panjang-panjang nenek jadikan menara. Irisannya merah cantik buat jendela... Daun tomat jadi pohon-pohon kecil di halaman masjid."
+
+[Detik 22-35] More detail shots of assembly. She carefully arranges each piece with precision.
+
+Dialog nenek: "Tomat ini nenek tata rapi jadi alas halamannya. Merah cerah, seperti buah surga InsyaAllah. MasyaAllah, tomat itu selain enak dimakan, ternyata juga bisa jadi karya seni yang indah lho."
+
+[Detik 35-48] The completed tomato mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows thatched-roof houses, drying rice, hens and chicks, and smoke from a clay stove.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid tomat nenek ini pesan moralnya — kita harus bersyukur atas semua nikmat Allah, termasuk tomat ini."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Rural morning sounds — rooster crowing, crickets fading, birds singing, goat bleating, distant call to prayer, cooking sounds. Gentle traditional music.`
+            },
+            kubis: {
+                kakek: `[Detik 0-5] Cinematic wide static shot of a kampung vegetable garden at sunrise — rows of large green cabbages. A hen and her chicks walk between the rows.
+
+[Detik 5-12] Cut to a 70-year-old Indonesian elderly man wearing a brown peci and plaid flannel shirt, sitting on a bamboo bench. Around him are baskets of fresh cabbages. He grins at the camera.
+
+Dialog kakek: "Assalamualaikum! Hari ini kakek mau bikin masjid dari kubis! Kubis segar dari kebun sendiri. Hijau dan besar!"
+
+[Detik 12-25] Close-up montage: His hands place cabbage halves as domes, stack cabbage leaves as minarets, arrange cabbage pieces as walls, weave cabbage leaves as arched doorways, and top the dome with a cabbage leaf crescent.
+
+Dialog kakek (sambil menyusun): "Kubis ini bulat, pas banget buat kubah masjid. Daunnya besar jadi dinding. Bagian dalamnya putih buat detailnya — warnanya bagus kan? Terus daunnya kakek lengkungkan jadi pintu gerbang."
+
+[Detik 25-38] More assembly details. The kakek places cabbage leaves as decorations and shapes a cabbage base.
+
+Dialog kakek: "Nah, yang terakhir — daun kubis ini kita taruh di atas kubah jadi bulan sabit! Subhanallah, kubis ciptaan Allah itu nggak cuma sehat dimakan, tapi juga bisa jadi karya seni."
+
+[Detik 38-50] The camera slowly reveals the completed cabbage mosque — a stunning creation of green and white colors. The kakek sits proudly beside his cabbage mosque, the kampung behind — wooden houses, banana trees, chickens, and a goat tied to a post.
+
+Dialog kakek (bangga): "Alhamdulillah, jadi! Masjid kubis kakek. Hijau putih, cantik. Ini bukti bahwa keindahan bisa datang dari mana saja."
+
+[CLOSING] The kakek smiles warmly at the camera, raises his hand gently.
+
+Dialog kakek: "Nah, kalau kalian suka video kakek ini, jangan lupa tekan tombol LIKE, terus SUBSCRIBE dan nyalakan lonceng notifikasinya biar nggak ketinggalan video-video kakek yang lain. Share juga ke teman-teman dan keluarga kalian ya. Dukungan kalian sangat berarti. Terima kasih, wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Rural morning sounds — rooster crowing, birds waking up, goat bleating, cow mooing, sizzling from cooking stove. Gentle background music.`,
+                nenek: `[Detik 0-5] Cinematic wide static shot of a kampung vegetable garden at sunrise — fresh cabbages glistening with morning dew. A hen and her chicks walk through the garden.
+
+[Detik 5-12] A 65-year-old Indonesian elderly woman wearing a white hijab and dark green kebaya sits at a wooden table under a jackfruit tree. Baskets of cabbages surround her. She looks at the camera warmly.
+
+Dialog nenek: "Assalamualaikum anak-anak... Nenek baru panen kubis dari kebun. Daripada langsung dimasak, bagaimana kalau kita bikin masjid dulu? Yuk!"
+
+[Detik 12-22] Close-up of her hands: placing cabbage halves as the main dome, stacking cabbage leaves as minarets, arranging cabbage pieces as windows, planting cabbage leaves as miniature trees, and layering cabbage as the base.
+
+Dialog nenek (sambil menyusun): "Kubis hijau ini bentuknya bagus jadi kubah masjid. Daunnya yang besar-besar nenek jadikan menara. Potongannya hijau cantik buat jendela... Daun kecil jadi pohon-pohon kecil di halaman masjid."
+
+[Detik 22-35] More detail shots of assembly. She carefully arranges each piece with precision.
+
+Dialog nenek: "Kubis ini nenek tata rapi jadi alas halamannya. Hijau segar, seperti taman surga InsyaAllah. MasyaAllah, kubis itu selain sehat dimakan, ternyata juga bisa jadi karya seni yang indah lho."
+
+[Detik 35-48] The completed cabbage mosque is revealed in beautiful detail. She places it on display with pride. The kampung background shows thatched-roof houses, drying rice, hens and chicks, and smoke from a clay stove.
+
+Dialog nenek (tersenyum bangga): "Alhamdulillah sudah jadi! Cantik banget kan? Masjid kubis nenek ini pesan moralnya — kita harus bersyukur atas semua nikmat Allah, termasuk kubis ini."
+
+[CLOSING] The nenek smiles sweetly at the camera and waves gently.
+
+Dialog nenek: "Anak-anak sayang, kalau suka sama video nenek, jangan lupa tekan LIKE dan SUBSCRIBE ya, nyalakan juga lonceng notifikasinya. Share ke teman-teman kalian biar makin banyak yang terinspirasi. Nenek sayang kalian semua, terima kasih ya. Wassalamualaikum warahmatullahi wabarakatuh!"
+Audio: Rural morning sounds — rooster crowing, crickets fading, birds singing, goat bleating, distant call to prayer, cooking sounds. Gentle traditional music.`
+            }
         },
         kayu: {
             kakek: `[Detik 0-5] Cinematic close-up shot of woodworking — shavings curling from a chisel, a hand smoothing polished teak, the grain of beautiful hardwood.
@@ -2576,7 +3238,11 @@ let state = {
     character: null,
     location: null,
     scene: null,  // null for image, '0'|'1'|'2'|'full' for video
-    grokMode: null // null for non-grok, 'image'|'video' for grok
+    grokMode: null, // null for non-grok, 'image'|'video' for grok
+    size: null,     // additional parameters
+    color: null,
+    style: null,
+    lighting: null
 };
 
 // ─── Scene Labels ───
@@ -2608,6 +3274,12 @@ const toast = document.getElementById('toast');
 const locationGrid = document.getElementById('locationGrid');
 const locationSearch = document.getElementById('locationSearch');
 const locationCount = document.getElementById('locationCount');
+
+// ─── Parameter Elements ───
+const sizeSelect = document.getElementById('sizeSelect');
+const colorSelect = document.getElementById('colorSelect');
+const styleSelect = document.getElementById('styleSelect');
+const lightingSelect = document.getElementById('lightingSelect');
 
 // ─── Populate Location Grid ───
 function populateLocationGrid() {
@@ -2688,9 +3360,96 @@ function setupButtonGroup(buttons, stateKey) {
     });
 }
 
+// ─── Special Material Button Logic ───
+function setupMaterialButtons() {
+    materialBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const value = btn.dataset.value;
+
+            if (value === 'buah') {
+                // Show buah modal
+                document.getElementById('buahModal').classList.add('show');
+                return;
+            } else if (value === 'sayuran') {
+                // Show sayuran modal
+                document.getElementById('sayuranModal').classList.add('show');
+                return;
+            }
+
+            // Normal material selection
+            materialBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            btn.classList.add('pop');
+            setTimeout(() => btn.classList.remove('pop'), 200);
+            state.material = value;
+            updateGenerateBtn();
+        });
+    });
+}
+
 setupButtonGroup(platformBtns, 'platform');
-setupButtonGroup(materialBtns, 'material');
+setupMaterialButtons();
 setupButtonGroup(characterBtns, 'character');
+
+// ─── Parameter Select Event Listeners ───
+[sizeSelect, colorSelect, styleSelect, lightingSelect].forEach(select => {
+    select.addEventListener('change', (e) => {
+        const paramType = select.id.replace('Select', '').toLowerCase();
+        state[paramType] = e.target.value || null;
+        updateGenerateBtn();
+    });
+});
+
+// ─── Modal Logic ───
+const buahModal = document.getElementById('buahModal');
+const sayuranModal = document.getElementById('sayuranModal');
+const closeBuahModal = document.getElementById('closeBuahModal');
+const closeSayuranModal = document.getElementById('closeSayuranModal');
+const subMaterialBtns = document.querySelectorAll('.btn-sub-material');
+
+// Close modals
+closeBuahModal.addEventListener('click', () => {
+    buahModal.classList.remove('show');
+});
+
+closeSayuranModal.addEventListener('click', () => {
+    sayuranModal.classList.remove('show');
+});
+
+// Click outside to close
+buahModal.addEventListener('click', (e) => {
+    if (e.target === buahModal) {
+        buahModal.classList.remove('show');
+    }
+});
+
+sayuranModal.addEventListener('click', (e) => {
+    if (e.target === sayuranModal) {
+        sayuranModal.classList.remove('show');
+    }
+});
+
+// Sub-material selection
+subMaterialBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const value = btn.dataset.value;
+        const modal = btn.closest('.modal');
+        const isBuah = modal.id === 'buahModal';
+
+        // Set material type
+        state.material = isBuah ? `buah_${value}` : `sayuran_${value}`;
+
+        // Update UI
+        materialBtns.forEach(b => b.classList.remove('active'));
+        const mainBtn = document.querySelector(`[data-value="${isBuah ? 'buah' : 'sayuran'}"]`);
+        mainBtn.classList.add('active');
+
+        // Close modal
+        modal.classList.remove('show');
+
+        updateGenerateBtn();
+    });
+});
 
 // ─── Grok Mode Button Logic ───
 grokModeBtns.forEach(btn => {
@@ -2819,7 +3578,76 @@ function injectLocation(prompt, locationSetting, platform) {
     }
 }
 
-// ─── Clean Dialog for Grok (Fix Noise without Removing Dialog) ───
+// ─── Inject Parameters into Prompt ───
+function injectParameters(prompt, params) {
+    let modifiedPrompt = prompt;
+
+    // Size parameter
+    if (params.size) {
+        const sizeDescriptions = {
+            'kecil': 'miniature, small-scale',
+            'sedang': 'medium-sized, life-sized',
+            'besar': 'massive, megalithic, enormous'
+        };
+        if (sizeDescriptions[params.size]) {
+            modifiedPrompt = modifiedPrompt.replace(
+                /(miniature mosque|beautifully detailed miniature mosque|stunning miniature mosque|exquisite miniature mosque|delicate miniature mosque|extraordinary miniature mosque|impressive miniature mosque|magnificent miniature mosque)/gi,
+                `$1, ${sizeDescriptions[params.size]}`
+            );
+        }
+    }
+
+    // Color parameter
+    if (params.color) {
+        const colorDescriptions = {
+            'merah': 'with warm red and orange tones, vibrant and energetic',
+            'biru': 'with cool blue and cyan tones, serene and calming',
+            'hijau': 'with natural green tones, fresh and organic',
+            'kuning': 'with bright yellow and golden tones, cheerful and sunny',
+            'ungu': 'with mystical purple and violet tones, elegant and mysterious'
+        };
+        if (colorDescriptions[params.color]) {
+            modifiedPrompt = modifiedPrompt.replace(
+                /(ultra-detailed|hyper-realistic|cinematic|photorealistic)/gi,
+                `$1, ${colorDescriptions[params.color]}`
+            );
+        }
+    }
+
+    // Style parameter
+    if (params.style) {
+        const styleDescriptions = {
+            'realistis': 'in a hyper-realistic style',
+            'impressionis': 'in an impressionist style with visible brushstrokes',
+            'abstrak': 'in an abstract artistic style',
+            'minimalis': 'in a clean minimalist style'
+        };
+        if (styleDescriptions[params.style]) {
+            modifiedPrompt = modifiedPrompt.replace(
+                /(8K resolution|photorealistic|ultra-detailed)/gi,
+                `$1, ${styleDescriptions[params.style]}`
+            );
+        }
+    }
+
+    // Lighting parameter
+    if (params.lighting) {
+        const lightingDescriptions = {
+            'golden_hour': 'with beautiful golden hour lighting',
+            'studio': 'with professional studio lighting',
+            'dramatic': 'with dramatic cinematic lighting and shadows',
+            'natural': 'with natural ambient lighting'
+        };
+        if (lightingDescriptions[params.lighting]) {
+            modifiedPrompt = modifiedPrompt.replace(
+                /(golden hour sunlight|warm golden sunlight|soft diffused light|morning sunlight|afternoon light|warm afternoon glow|soft golden afternoon light)/gi,
+                lightingDescriptions[params.lighting]
+            );
+        }
+    }
+
+    return modifiedPrompt;
+}
 function cleanDialogForGrok(prompt) {
     return prompt
         // Clean dialog lines: remove quotes but keep text, fix special chars
@@ -2848,7 +3676,7 @@ function cleanDialogForGrok(prompt) {
 
 // ─── Generate Prompt ───
 generateBtn.addEventListener('click', () => {
-    const { platform, material, character, location, scene, grokMode } = state;
+    const { platform, material, character, location, scene, grokMode, size, color, style, lighting } = state;
 
     if (!platform || !material || !character || !location) return;
     if (platform === 'video' && scene === null) return;
@@ -2862,7 +3690,20 @@ generateBtn.addEventListener('click', () => {
     } else {
         promptKey = platform; // 'image' or 'video'
     }
-    let prompt = PROMPTS[promptKey]?.[material]?.[character];
+
+    // Handle material with subtypes (e.g., "buah_apel" -> PROMPTS[promptKey].buah.apel[character])
+    let materialKey = material;
+    let subMaterialKey = null;
+    if (material.includes('_')) {
+        [materialKey, subMaterialKey] = material.split('_', 2);
+    }
+
+    let prompt;
+    if (subMaterialKey) {
+        prompt = PROMPTS[promptKey]?.[materialKey]?.[subMaterialKey]?.[character];
+    } else {
+        prompt = PROMPTS[promptKey]?.[material]?.[character];
+    }
 
     if (!prompt) {
         outputBox.textContent = '❌ Prompt tidak ditemukan untuk kombinasi ini.';
@@ -2875,6 +3716,10 @@ generateBtn.addEventListener('click', () => {
         const effectivePlatform = (platform === 'grok') ? grokMode : platform;
         prompt = injectLocation(prompt, locData.setting, effectivePlatform);
     }
+
+    // Inject additional parameters
+    const params = { size, color, style, lighting };
+    prompt = injectParameters(prompt, params);
 
     // Extract scene for video prompts
     const isVideoMode = (platform === 'video') || (platform === 'grok' && grokMode === 'video');
@@ -2896,7 +3741,18 @@ generateBtn.addEventListener('click', () => {
     } else {
         outputTagPlatform.textContent = PLATFORM_LABELS[platform];
     }
-    outputTagMaterial.textContent = MATERIAL_LABELS[material];
+    // Get material label (handle subtypes)
+    let materialLabel = MATERIAL_LABELS[material];
+    if (!materialLabel && material.includes('_')) {
+        const [type, subtype] = material.split('_', 2);
+        const baseLabel = MATERIAL_LABELS[type];
+        if (baseLabel) {
+            // Capitalize subtype
+            const subtypeLabel = subtype.charAt(0).toUpperCase() + subtype.slice(1).replace(/_/g, ' ');
+            materialLabel = `${baseLabel} (${subtypeLabel})`;
+        }
+    }
+    outputTagMaterial.textContent = materialLabel || material;
     outputTagCharacter.textContent = CHARACTER_LABELS[character];
 
     // Add scene info for video
