@@ -347,6 +347,55 @@
       </div>
     </div>
 
+    <!-- ─── Parameter Tambahan ─── -->
+    <div class="panel">
+      <div class="panel-title">
+        <span class="icon">⚙️</span> Parameter Tambahan (Opsional)
+      </div>
+      <div class="parameter-grid">
+        <div class="parameter-item">
+          <label for="sizeSelect">Ukuran Masjid:</label>
+          <select id="sizeSelect" class="parameter-select">
+            <option value="">Default</option>
+            <option value="kecil">Kecil (Miniatur)</option>
+            <option value="sedang">Sedang</option>
+            <option value="besar">Besar (Megalithic)</option>
+          </select>
+        </div>
+        <div class="parameter-item">
+          <label for="colorSelect">Warna Dominan:</label>
+          <select id="colorSelect" class="parameter-select">
+            <option value="">Default</option>
+            <option value="merah">Merah & Hangat</option>
+            <option value="biru">Biru & Dingin</option>
+            <option value="hijau">Hijau & Alam</option>
+            <option value="kuning">Kuning & Cerah</option>
+            <option value="ungu">Ungu & Mistis</option>
+          </select>
+        </div>
+        <div class="parameter-item">
+          <label for="styleSelect">Gaya Artistik:</label>
+          <select id="styleSelect" class="parameter-select">
+            <option value="">Default</option>
+            <option value="realistis">Realistis</option>
+            <option value="impressionis">Impressionis</option>
+            <option value="abstrak">Abstrak</option>
+            <option value="minimalis">Minimalis</option>
+          </select>
+        </div>
+        <div class="parameter-item">
+          <label for="lightingSelect">Pencahayaan:</label>
+          <select id="lightingSelect" class="parameter-select">
+            <option value="">Default</option>
+            <option value="golden_hour">Golden Hour</option>
+            <option value="studio">Studio</option>
+            <option value="dramatic">Dramatic</option>
+            <option value="natural">Natural</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
     <!-- ─── Generate Button ─── -->
     <button class="btn-generate" id="generateBtn" disabled>
       ✨ Generate Prompt
@@ -400,6 +449,194 @@
 
   <!-- ─── Toast ─── -->
   <div class="toast" id="toast"></div>
+
+  <!-- ─── Modal Buah ─── -->
+  <div class="modal" id="buahModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title">🍉 Pilih Jenis Buah</span>
+        <button class="modal-close" id="closeBuahModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="sub-material-grid">
+          <button class="btn-sub-material" data-value="apel">
+            <span class="emoji">🍎</span>
+            <span class="label-main">Apel</span>
+          </button>
+          <button class="btn-sub-material" data-value="jeruk">
+            <span class="emoji">🍊</span>
+            <span class="label-main">Jeruk</span>
+          </button>
+          <button class="btn-sub-material" data-value="pisang">
+            <span class="emoji">🍌</span>
+            <span class="label-main">Pisang</span>
+          </button>
+          <button class="btn-sub-material" data-value="mangga">
+            <span class="emoji">🥭</span>
+            <span class="label-main">Mangga</span>
+          </button>
+          <button class="btn-sub-material" data-value="semangka">
+            <span class="emoji">🍉</span>
+            <span class="label-main">Semangka</span>
+          </button>
+          <button class="btn-sub-material" data-value="anggur">
+            <span class="emoji">🍇</span>
+            <span class="label-main">Anggur</span>
+          </button>
+          <button class="btn-sub-material" data-value="stroberi">
+            <span class="emoji">🍓</span>
+            <span class="label-main">Stroberi</span>
+          </button>
+          <button class="btn-sub-material" data-value="nanas">
+            <span class="emoji">🍍</span>
+            <span class="label-main">Nanas</span>
+          </button>
+          <button class="btn-sub-material" data-value="kiwi">
+            <span class="emoji">🥝</span>
+            <span class="label-main">Kiwi</span>
+          </button>
+          <button class="btn-sub-material" data-value="melon">
+            <span class="emoji">🍈</span>
+            <span class="label-main">Melon</span>
+          </button>
+          <button class="btn-sub-material" data-value="durian">
+            <span class="emoji">🫚</span>
+            <span class="label-main">Durian</span>
+          </button>
+          <button class="btn-sub-material" data-value="rambutan">
+            <span class="emoji">🫐</span>
+            <span class="label-main">Rambutan</span>
+          </button>
+          <button class="btn-sub-material" data-value="salak">
+            <span class="emoji">🥥</span>
+            <span class="label-main">Salak</span>
+          </button>
+          <button class="btn-sub-material" data-value="manggis">
+            <span class="emoji">🫐</span>
+            <span class="label-main">Manggis</span>
+          </button>
+          <button class="btn-sub-material" data-value="duku">
+            <span class="emoji">🍈</span>
+            <span class="label-main">Duku</span>
+          </button>
+          <button class="btn-sub-material" data-value="jambu">
+            <span class="emoji">🍑</span>
+            <span class="label-main">Jambu</span>
+          </button>
+          <button class="btn-sub-material" data-value="pepaya">
+            <span class="emoji">🍈</span>
+            <span class="label-main">Pepaya</span>
+          </button>
+          <button class="btn-sub-material" data-value="sirsak">
+            <span class="emoji">🍈</span>
+            <span class="label-main">Sirsak</span>
+          </button>
+          <button class="btn-sub-material" data-value="nangka">
+            <span class="emoji">🍈</span>
+            <span class="label-main">Nangka</span>
+          </button>
+          <button class="btn-sub-material" data-value="kelapa">
+            <span class="emoji">🥥</span>
+            <span class="label-main">Kelapa</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── Modal Sayuran ─── -->
+  <div class="modal" id="sayuranModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title">🥬 Pilih Jenis Sayuran</span>
+        <button class="modal-close" id="closeSayuranModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="sub-material-grid">
+          <button class="btn-sub-material" data-value="bayam">
+            <span class="emoji">🥬</span>
+            <span class="label-main">Bayam</span>
+          </button>
+          <button class="btn-sub-material" data-value="kangkung">
+            <span class="emoji">🥬</span>
+            <span class="label-main">Kangkung</span>
+          </button>
+          <button class="btn-sub-material" data-value="sawi">
+            <span class="emoji">🥬</span>
+            <span class="label-main">Sawi</span>
+          </button>
+          <button class="btn-sub-material" data-value="kubis">
+            <span class="emoji">🥬</span>
+            <span class="label-main">Kubis</span>
+          </button>
+          <button class="btn-sub-material" data-value="wortel">
+            <span class="emoji">🥕</span>
+            <span class="label-main">Wortel</span>
+          </button>
+          <button class="btn-sub-material" data-value="kentang">
+            <span class="emoji">🥔</span>
+            <span class="label-main">Kentang</span>
+          </button>
+          <button class="btn-sub-material" data-value="tomat">
+            <span class="emoji">🍅</span>
+            <span class="label-main">Tomat</span>
+          </button>
+          <button class="btn-sub-material" data-value="timun">
+            <span class="emoji">🥒</span>
+            <span class="label-main">Timun</span>
+          </button>
+          <button class="btn-sub-material" data-value="terong">
+            <span class="emoji">🍆</span>
+            <span class="label-main">Terong</span>
+          </button>
+          <button class="btn-sub-material" data-value="cabai">
+            <span class="emoji">🌶️</span>
+            <span class="label-main">Cabai</span>
+          </button>
+          <button class="btn-sub-material" data-value="bawang_merah">
+            <span class="emoji">🧅</span>
+            <span class="label-main">Bawang Merah</span>
+          </button>
+          <button class="btn-sub-material" data-value="bawang_putih">
+            <span class="emoji">🧄</span>
+            <span class="label-main">Bawang Putih</span>
+          </button>
+          <button class="btn-sub-material" data-value="jagung">
+            <span class="emoji">🌽</span>
+            <span class="label-main">Jagung</span>
+          </button>
+          <button class="btn-sub-material" data-value="kacang_panjang">
+            <span class="emoji">🫘</span>
+            <span class="label-main">Kacang Panjang</span>
+          </button>
+          <button class="btn-sub-material" data-value="pare">
+            <span class="emoji">🥬</span>
+            <span class="label-main">Pare</span>
+          </button>
+          <button class="btn-sub-material" data-value="labu">
+            <span class="emoji">🎃</span>
+            <span class="label-main">Labu</span>
+          </button>
+          <button class="btn-sub-material" data-value="brokoli">
+            <span class="emoji">🥦</span>
+            <span class="label-main">Brokoli</span>
+          </button>
+          <button class="btn-sub-material" data-value="kembang_kol">
+            <span class="emoji">🥬</span>
+            <span class="label-main">Kembang Kol</span>
+          </button>
+          <button class="btn-sub-material" data-value="seledri">
+            <span class="emoji">🌿</span>
+            <span class="label-main">Seledri</span>
+          </button>
+          <button class="btn-sub-material" data-value="daun_bawang">
+            <span class="emoji">🌿</span>
+            <span class="label-main">Daun Bawang</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
   <script src="wanita-prompts.js"></script>
